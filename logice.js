@@ -9,18 +9,29 @@
 //     console.log("The value of i is: ", i);
 // }
 
-let a = 12;
-let b = 23;
-console.log("sum of a and b is: ", b + a);
+// let a = 12;
+// let b = 23;
+// console.log("sum of a and b is: ", b + a);
 
-let c = 10;
-for (c = 10; c >= 0; c--) {
-    console.log("The value of c is: ", c);
-}
+// let c = 10;
+// for (c = 10; c >= 0; c--) {
+//     console.log("The value of c is: ", c);
+// }
 
-for (let d = 0; d <= 20; d++) {
-    console.log("The value of d is : ", d);
+// for (let d = 0; d <= 20; d++) {
+//     console.log("The value of d is : ", d);
+// }
+// for (let e = 10; e >= 0; e--) {
+//     console.log("The value of e is : ", e);
+// }
+
+let f = 1;
+if (f < 5 || f == 0) {
+    console.log("The Value of f is less than 5: ", f);
 }
-for (let e = 10; e >= 0; e--) {
-    console.log("The value of e is : ", e);
+if (f < 10 && f >= 6) {
+    console.log("The Value of f is greater than 5 and less than 10: ", f);
+}
+else if (f == 5) {
+    console.log("The Value of f is Exactly : ", f);
 }
