@@ -36,9 +36,21 @@
 //     console.log("The Value of f is Exactly : ", f);
 // }
 
-let a = 2, b = 2;
-let formula_1 = Math.pow(a + b, 2);
-let formula_2 = Math.pow(a, 2) + Math.pow(b, 2) + 2 * a * b;
-console.log("Formula 1: ", formula_1);
-console.log("Formula 2: ", formula_2);
-console.log("LHS = RHS:", formula_1 === formula_2);
+// let a = 2, b = 2;
+// let formula_1 = Math.pow(a + b, 2);
+// let formula_2 = Math.pow(a, 2) + Math.pow(b, 2) + 2 * a * b;
+// console.log("Formula 1: ", formula_1);
+// console.log("Formula 2: ", formula_2);
+// console.log("LHS = RHS:", formula_1 === formula_2);
+
+const counters = ["Paksitan", "USA", "Uk", "Malaysia", "China"];
+console.log(counters);
+counters[0] = "India";
+console.log(counters);
+console.log(counters.length);
+counters.push("Bangladesh");
+console.log(counters);
+const index = counters.indexOf("USA");
+console.log("Index of USA is: ", index);
+counters.splice(index, 1);
+console.log(counters);
