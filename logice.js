@@ -25,13 +25,20 @@
 //     console.log("The value of e is : ", e);
 // }
 
-let f = 1;
-if (f < 5 || f == 0) {
-    console.log("The Value of f is less than 5: ", f);
-}
-if (f < 10 && f >= 6) {
-    console.log("The Value of f is greater than 5 and less than 10: ", f);
-}
-else if (f == 5) {
-    console.log("The Value of f is Exactly : ", f);
-}
+// let f = 1;
+// if (f < 5 || f == 0) {
+//     console.log("The Value of f is less than 5: ", f);
+// }
+// if (f < 10 && f >= 6) {
+//     console.log("The Value of f is greater than 5 and less than 10: ", f);
+// }
+// else if (f == 5) {
+//     console.log("The Value of f is Exactly : ", f);
+// }
+
+let a = 2;
+let b = 2;
+let formula_1 = (a + b) * (a + b);
+let formula_2 = Math.pow(a, 2) + Math.pow(b, 2) + 2 * a * b;
+console.log("Formula 1: ", formula_1);
+console.log("Formula 2: ", formula_2);
