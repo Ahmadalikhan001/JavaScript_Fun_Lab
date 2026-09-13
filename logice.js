@@ -36,9 +36,8 @@
 //     console.log("The Value of f is Exactly : ", f);
 // }
 
-let a = 2;
-let b = 2;
-let formula_1 = (a + b) * (a + b);
+let a = 2, b = 2;
+let formula_1 = Math.pow(a + b, 2);
 let formula_2 = Math.pow(a, 2) + Math.pow(b, 2) + 2 * a * b;
 console.log("Formula 1: ", formula_1);
 console.log("Formula 2: ", formula_2);
