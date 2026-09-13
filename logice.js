@@ -11,9 +11,13 @@
 
 let a = 12;
 let b = 23;
-console.log(b + a);
+console.log("sum of a and b is: ", b + a);
 
 let c = 0;
 for (c = 0; c <= 10; c++) {
     console.log("The value of c is: ", c);
+}
+
+for (let d = 0; d <= 20; d++) {
+    console.log("The value of d is : ", d);
 }
