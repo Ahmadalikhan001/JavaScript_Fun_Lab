@@ -13,8 +13,8 @@ let a = 12;
 let b = 23;
 console.log("sum of a and b is: ", b + a);
 
-let c = 0;
-for (c = 0; c <= 10; c++) {
+let c = 10;
+for (c = 10; c >= 0; c--) {
     console.log("The value of c is: ", c);
 }
 
