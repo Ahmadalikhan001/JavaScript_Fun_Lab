@@ -21,3 +21,6 @@ for (c = 10; c >= 0; c--) {
 for (let d = 0; d <= 20; d++) {
     console.log("The value of d is : ", d);
 }
+for (let e = 10; e >= 0; e--) {
+    console.log("The value of e is : ", e);
+}
