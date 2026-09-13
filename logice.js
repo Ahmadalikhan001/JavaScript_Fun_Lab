@@ -54,3 +54,5 @@ const index = counters.indexOf("USA");
 console.log("Index of USA is: ", index);
 counters.splice(index, 1);
 console.log(counters);
+counters.pop();
+console.log(counters);
