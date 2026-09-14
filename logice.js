@@ -84,5 +84,9 @@ console.log(Number);
 Number.pop();
 console.log(Number);
 
-Number.shift("Pakistan");
+Number.shift();
 console.log(Number);
+console.log(Number[0]);
+Number.unshift("Pakistan");
+console.log(Number);
+console.log(Number[0]);
