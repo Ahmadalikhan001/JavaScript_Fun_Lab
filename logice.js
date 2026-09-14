@@ -83,3 +83,6 @@ console.log(Number);
 
 Number.pop();
 console.log(Number);
+
+Number.shift("Pakistan");
+console.log(Number);
