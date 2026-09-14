@@ -64,7 +64,11 @@
 //     console.log(Num[i]);
 // }
 
-let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let i = 0; i < a.length; i++) {
-    console.log(a[i]);
-}
+// let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 0; i < a.length; i++) {
+//     console.log(a[i]);
+// }
+
+let number1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let Number2 = number1.map(number1 => number1 * 2);
+console.log(Number2);
