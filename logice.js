@@ -69,6 +69,13 @@
 //     console.log(a[i]);
 // }
 
-let number1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let Number2 = number1.map(number1 => number1 * 2);
-console.log(Number2);
+// let number1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let Number2 = number1.map(number1 => number1 * 2);
+// console.log(Number2);
+
+let Number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(Number);
+console.log(Number.length);
+console.log(typeof Number);
+Number.push(11);
+console.log(Number);
