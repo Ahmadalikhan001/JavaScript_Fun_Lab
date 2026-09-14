@@ -60,6 +60,6 @@
 // console.log(new_counters);
 //Normal for loop
 let Num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let i = 0; i < Num.length; i++) {
+for (let i = Num.length - 1; i >= 0; i--) {
     console.log(Num[i]);
 }
