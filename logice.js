@@ -79,3 +79,7 @@ console.log(Number.length);
 console.log(typeof Number);
 Number.push(11);
 console.log(Number);
+
+
+Number.pop();
+console.log(Number);
