@@ -43,18 +43,23 @@
 // console.log("Formula 2: ", formula_2);
 // console.log("LHS = RHS:", formula_1 === formula_2);
 
-const counters = ["Paksitan", "USA", "Uk", "Malaysia", "China"];
-console.log(counters);
-counters[0] = "India";
-console.log(counters);
-console.log(counters.length);
-counters.push("Bangladesh");
-console.log(counters);
-const index = counters.indexOf("USA");
-console.log("Index of USA is: ", index);
-counters.splice(index, 1);
-console.log(counters);
-counters.pop();
-console.log(counters);
-let new_counters = counters.map(counter => counter.toUpperCase());
-console.log(new_counters);   
+// const counters = ["Paksitan", "USA", "Uk", "Malaysia", "China"];
+// console.log(counters);
+// counters[0] = "India";
+// console.log(counters);
+// console.log(counters.length);
+// counters.push("Bangladesh");
+// console.log(counters);
+// const index = counters.indexOf("USA");
+// console.log("Index of USA is: ", index);
+// counters.splice(index, 1);
+// console.log(counters);
+// counters.pop();
+// console.log(counters);
+// let new_counters = counters.map(counter => counter.toUpperCase());
+// console.log(new_counters);
+//Normal for loop
+let Num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i < Num.length; i++) {
+    console.log(Num[i]);
+}
