@@ -73,22 +73,26 @@
 // let Number2 = number1.map(number1 => number1 * 2);
 // console.log(Number2);
 
+// let Number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(Number);
+// console.log(Number.length);
+// console.log(typeof Number);
+// Number.push(11);
+// console.log(Number);
+
+
+// Number.pop();
+// console.log(Number);
+
+// Number.shift();
+// console.log(Number);
+// console.log(Number[0]);
+// let includesOne = Number.includes(1);
+// console.log("Does the array include 1?", includesOne);
+// Number.unshift(1);
+// console.log(Number);
+// console.log(Number[0]);
+
 let Number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(Number);
-console.log(Number.length);
-console.log(typeof Number);
-Number.push(11);
-console.log(Number);
-
-
-Number.pop();
-console.log(Number);
-
-Number.shift();
-console.log(Number);
-console.log(Number[0]);
-let includesOne = Number.includes(1);
-console.log("Does the array include 1?", includesOne);
-Number.unshift(1);
-console.log(Number);
-console.log(Number[0]);
+let index = Number.indexOf(Number);
+console.log("Index of Number is: ", index);
