@@ -96,3 +96,7 @@
 // let Number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let index = Number.indexOf(Number);
 // console.log("Index of Number is: ", index);
+
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let new_a = a.map(a => a * 2);
+console.log(new_a);
