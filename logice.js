@@ -120,3 +120,10 @@
 // console.log(a);
 // new_a.push("Hello");
 // console.log(new_a);
+
+
+const ages = [12, 15, 17, 21, 25, 30];
+
+const result = ages.find(age => age >= 18);
+
+console.log(result);
