@@ -112,3 +112,7 @@ a.shift();
 console.log(a);
 new_a.shift();
 console.log(new_a);
+a.unshift(1);
+console.log(a);
+new_a.unshift(2);
+console.log(new_a);
