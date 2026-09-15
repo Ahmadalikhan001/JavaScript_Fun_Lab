@@ -104,3 +104,11 @@
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let new_a = a.map(a => a + 2);
 console.log(new_a);
+a.pop();
+console.log(a);
+new_a.pop();
+console.log(new_a);
+a.shift();
+console.log(a);
+// new_a.shift();
+console.log(new_a);
