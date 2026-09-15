@@ -116,3 +116,7 @@ a.unshift(1);
 console.log(a);
 new_a.unshift(2);
 console.log(new_a);
+a.push(11);
+console.log(a);
+new_a.push("Hello");
+console.log(new_a);
