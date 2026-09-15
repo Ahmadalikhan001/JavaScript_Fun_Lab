@@ -93,6 +93,6 @@
 // console.log(Number);
 // console.log(Number[0]);
 
-let Number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let index = Number.indexOf(Number);
-console.log("Index of Number is: ", index);
+// let Number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let index = Number.indexOf(Number);
+// console.log("Index of Number is: ", index);
