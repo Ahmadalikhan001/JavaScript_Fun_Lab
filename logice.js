@@ -108,18 +108,18 @@
 // console.log(a);
 // new_a.pop();
 // console.log(new_a);
-// a.shift();
-// console.log(a);
-// new_a.shift();
-// console.log(new_a);
-// a.unshift(1);
-// console.log(a);
-// new_a.unshift(2);
-// console.log(new_a);
-// a.push(11);
-// console.log(a);
-// new_a.push("Hello");
-// console.log(new_a);
+a.shift();
+console.log(a);
+new_a.shift();
+console.log(new_a);
+a.unshift(1);
+console.log(a);
+new_a.unshift(2);
+console.log(new_a);
+a.push(11);
+console.log(a);
+new_a.push("Hello");
+console.log(new_a);
 
 
 const ages = [12, 15, 17, 21, 25, 30];
