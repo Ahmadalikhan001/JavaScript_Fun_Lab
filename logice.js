@@ -110,5 +110,5 @@ new_a.pop();
 console.log(new_a);
 a.shift();
 console.log(a);
-// new_a.shift();
+new_a.shift();
 console.log(new_a);
