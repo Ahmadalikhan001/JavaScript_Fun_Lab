@@ -161,10 +161,17 @@
 // }
 
 // Logical Operators
-let age = 20;
-let hasID = true;
+// let age = 20;
+// let hasID = true;
 
-if (age >= 18 && hasID === true) {
+// if (age >= 18 && hasID === true) {
+//     console.log("You can enter");
+// }
+// its print "You can enter" if the age is greater than or equal to 18 and hasID is true.
+let age = 16;
+let hasParent = true;
+
+if (age >= 18 || hasParent === true) {
     console.log("You can enter");
 }
-// its print "You can enter" if the age is greater than or equal to 18 and hasID is true.
+// its print "You can enter" if the age is greater than or equal to 18 or hasParent is true. so the output will be "You can enter" because the age is less than 18 but hasParent is true.
