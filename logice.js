@@ -186,18 +186,40 @@
 
 // if/else if statements
 // let day = "Monday";
-let day = "Saturday";
-if (day === "Monday") {
-    console.log("Today is Monday starting of the week");
-} else if (day === "Tuesday") {
-    console.log("Today is Tuesday");
-} else if (day === "Wednesday") {
-    console.log("Today is Wednesday");
-} else if (day === "Thursday") {
-    console.log("Today is Thursday");
-} else if (day === "Friday") {
-    console.log("Today is Friday end of the week");
-} else {
-    console.log("Today is Weekend");
-};
+// let day = "Saturday";
+// if (day === "Monday") {
+//     console.log("Today is Monday starting of the week");
+// } else if (day === "Tuesday") {
+//     console.log("Today is Tuesday");
+// } else if (day === "Wednesday") {
+//     console.log("Today is Wednesday");
+// } else if (day === "Thursday") {
+//     console.log("Today is Thursday");
+// } else if (day === "Friday") {
+//     console.log("Today is Friday end of the week");
+// } else {
+//     console.log("Today is Weekend");
+// };
 
+// Switch statement
+// let day = "Monday";
+let day = "Saturday";
+switch (day) {
+    case "Monday":
+        console.log("Today is Monday starting of the week");
+        break;
+    case "Tuesday":
+        console.log("Today is Tuesday");
+        break;
+    case "Wednesday":
+        console.log("Today is Wednesday");
+        break;
+    case "Thursday":
+        console.log("Today is Thursday");
+        break;
+    case "Friday":
+        console.log("Today is Friday end of the week");
+        break;
+    default:
+        console.log("Today is Weekend");
+}
