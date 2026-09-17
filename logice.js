@@ -141,3 +141,9 @@ console.log(obj.age);
 console.log(obj.education);
 obj.address = "Pakistan";
 console.log(obj);
+
+// changing Value of object
+
+obj.name = "Ali";
+console.log(obj.name);
+console.log(obj);
