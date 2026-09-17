@@ -202,24 +202,44 @@
 // };
 
 // Switch statement
-let day = "Monday";
-// let day = "Saturday";
-switch (day) {
-    case "Monday":
-        console.log("Today is Monday starting of the week");
-        break;
-    case "Tuesday":
-        console.log("Today is Tuesday");
-        break;
-    case "Wednesday":
-        console.log("Today is Wednesday");
-        break;
-    case "Thursday":
-        console.log("Today is Thursday");
-        break;
-    case "Friday":
-        console.log("Today is Friday end of the week");
-        break;
-    default:
-        console.log("Today is Weekend");
+// let day = "Monday";
+// // let day = "Saturday";
+// switch (day) {
+//     case "Monday":
+//         console.log("Today is Monday starting of the week");
+//         break;
+//     case "Tuesday":
+//         console.log("Today is Tuesday");
+//         break;
+//     case "Wednesday":
+//         console.log("Today is Wednesday");
+//         break;
+//     case "Thursday":
+//         console.log("Today is Thursday");
+//         break;
+//     case "Friday":
+//         console.log("Today is Friday end of the week");
+//         break;
+//     default:
+//         console.log("Today is Weekend");
+// }
+
+// Ternary Operator ? :
+
+// Now let's learn the ternary operator.
+
+// It's actually a short way of writing a simple if...else.
+
+// Normal if...else
+let age = 20;
+
+if (age >= 18) {
+    console.log("Adult");
+} else {
+    console.log("Child");
 }
+
+// Ternary Operator
+let age2 = 20;
+let result = (age2 >= 18) ? "Adult" : "Child";
+console.log(result);
