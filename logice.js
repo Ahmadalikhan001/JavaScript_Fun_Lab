@@ -122,8 +122,18 @@
 // console.log(new_a);
 
 
-const ages = [12, 15, 17, 21, 25, 30];
+// const ages = [12, 15, 17, 21, 25, 30];
 
-const result = ages.find(age => age >= 18);
+// const result = ages.find(age => age >= 18);
 
-console.log(result);
+// console.log(result);
+
+// objects and Arrays
+let obj = {
+    name: "Ahmad",
+    age: "28",
+    education: "Master",
+}
+console.log(obj);
+// single Value of object
+console.log(obj.name);
