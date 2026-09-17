@@ -153,9 +153,18 @@
 //     console.log(key, obj[key]);
 // }
 
-let students = [{ name: "Ahmad", age: 28, eduction: "Master", address: "Pakistan" }, { name: "Ali", age: 30, eduction: "PhD", address: "USA" }];
-console.log(students);
+// let students = [{ name: "Ahmad", age: 28, eduction: "Master", address: "Pakistan" }, { name: "Ali", age: 30, eduction: "PhD", address: "USA" }];
+// console.log(students);
 
-for (let student of students) {
-    console.log(student);
+// for (let student of students) {
+//     console.log(student);
+// }
+
+// Logical Operators
+let age = 20;
+let hasID = true;
+
+if (age >= 18 && hasID === true) {
+    console.log("You can enter");
 }
+// its print "You can enter" if the age is greater than or equal to 18 and hasID is true.
