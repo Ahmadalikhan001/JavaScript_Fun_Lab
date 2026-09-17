@@ -231,15 +231,22 @@
 // It's actually a short way of writing a simple if...else.
 
 // Normal if...else
+// let age = 20;
+
+// if (age >= 18) {
+//     console.log("Adult");
+// } else {
+//     console.log("Child");
+// }
+
+// // Ternary Operator
+// let age2 = 20;
+// let result = (age2 >= 18) ? "Adult" : "Child";
+// console.log(result);
+
 let age = 20;
+let hasID = true;
 
-if (age >= 18) {
-    console.log("Adult");
-} else {
-    console.log("Child");
-}
+let result = age >= 18 && hasID ? "Allowed" : "Denied";
 
-// Ternary Operator
-let age2 = 20;
-let result = (age2 >= 18) ? "Adult" : "Child";
 console.log(result);
