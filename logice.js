@@ -301,6 +301,10 @@
 
 // using the Ternary operator
 
-let marks = 40;
-let graid = (marks >= 80 ? "A+" : marks >= 60 && marks < 80 ? "B" : marks >= 50 && marks < 60 ? "C" : "Fail");
-console.log(graid);
+// let marks = 40;
+// let graid = (marks >= 80 ? "A+" : marks >= 60 && marks < 80 ? "B" : marks >= 50 && marks < 60 ? "C" : "Fail");
+// console.log(graid);
+
+let marks = 70;
+let result = (marks >= 80 ? "A+" : marks >= 70 && marks < 80 ? "A" : marks >= 60 && marks < 70 ? "B" : marks >= 50 && marks < 60 ? "C" : marks >= 50 && marks < 60 ? "C" : "Fail");
+console.log(result);
