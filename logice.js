@@ -244,9 +244,22 @@
 // let result = (age2 >= 18) ? "Adult" : "Child";
 // console.log(result);
 
-let age = 20;
-let hasID = true;
+// let age = 20;
+// let hasID = true;
 
-let result = age >= 18 && hasID ? "Allowed" : "Denied";
+// let result = age >= 18 && hasID ? "Allowed" : "Denied";
 
-console.log(result);
+// console.log(result);
+
+// Grade Calculator
+
+let marks = "47";
+if (marks >= 80) {
+    console.log("A+");
+} else if (marks >= 60 && marks < 80) {
+    console.log("B");
+} else if (marks >= 50 && marks < 60) {
+    console.log("C")
+} else {
+    console.log("Fail")
+}
