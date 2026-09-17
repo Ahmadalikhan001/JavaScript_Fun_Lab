@@ -310,6 +310,10 @@
 // console.log(result);
 
 // For loop
-for (let i = 0; i < 4; i++) {
+// for (let i = 0; i < 4; i++) {
+//     console.log(i);
+// }
+
+for (let i = 5; i >= 1; i--) {
     console.log(i);
 }
