@@ -147,3 +147,8 @@ console.log(obj);
 obj.name = "Ali";
 console.log(obj.name);
 console.log(obj);
+
+// for loop in object
+for (let key in obj) {
+    console.log(key, obj[key]);
+}
