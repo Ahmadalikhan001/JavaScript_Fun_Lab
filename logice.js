@@ -265,14 +265,14 @@
 // }
 
 // switch method
-let marks = 90;
-switch (true) {
-    case marks >= 80:
-        console.log("A+");
-        break;
-    default:
-        console.log("Fail");
-}
+// let marks = 90;
+// switch (true) {
+//     case marks >= 80:
+//         console.log("A+");
+//         break;
+//     default:
+//         console.log("Fail");
+// }
 // let marks = 90;
 
 // switch (true) {
@@ -283,3 +283,18 @@ switch (true) {
 //     default:
 //         console.log("Fail");
 // }
+
+let marks = 49;
+switch (true) {
+    case marks >= 80:
+        console.log("A+");
+        break;
+    case marks >= 60 && marks < 80:
+        console.log("B");
+        break;
+    case marks >= 50 && marks < 60:
+        console.log("C");
+        break;
+    default:
+        console.log("Fail")
+}
