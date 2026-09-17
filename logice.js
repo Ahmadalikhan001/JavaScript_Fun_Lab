@@ -137,3 +137,7 @@ let obj = {
 console.log(obj);
 // single Value of object
 console.log(obj.name);
+console.log(obj.age);
+console.log(obj.education);
+obj.address = "Pakistan";
+console.log(obj);
