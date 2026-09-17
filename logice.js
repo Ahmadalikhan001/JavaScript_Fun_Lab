@@ -129,26 +129,33 @@
 // console.log(result);
 
 // objects and Arrays
-let obj = {
-    name: "Ahmad",
-    age: "28",
-    education: "Master",
-}
-console.log(obj);
-// single Value of object
-console.log(obj.name);
-console.log(obj.age);
-console.log(obj.education);
-obj.address = "Pakistan";
-console.log(obj);
+// let obj = {
+//     name: "Ahmad",
+//     age: "28",
+//     education: "Master",
+// }
+// console.log(obj);
+// // single Value of object
+// console.log(obj.name);
+// console.log(obj.age);
+// console.log(obj.education);
+// obj.address = "Pakistan";
+// console.log(obj);
 
-// changing Value of object
+// // changing Value of object
 
-obj.name = "Ali";
-console.log(obj.name);
-console.log(obj);
+// obj.name = "Ali";
+// console.log(obj.name);
+// console.log(obj);
 
-// for loop in object
-for (let key in obj) {
-    console.log(key, obj[key]);
+// // for loop in object
+// for (let key in obj) {
+//     console.log(key, obj[key]);
+// }
+
+let students = [{ name: "Ahmad", age: 28, eduction: "Master", address: "Pakistan" }, { name: "Ali", age: 30, eduction: "PhD", address: "USA" }];
+console.log(students);
+
+for (let student of students) {
+    console.log(student);
 }
