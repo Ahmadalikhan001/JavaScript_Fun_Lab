@@ -176,10 +176,28 @@
 // }
 // its print "You can enter" if the age is greater than or equal to 18 or hasParent is true. so the output will be "You can enter" because the age is less than 18 but hasParent is true.
 
-let hasID = false;
+// let hasID = false;
 
-if (!hasID) {
-    console.log("You don't have an ID");
-}
+// if (!hasID) {
+//     console.log("You don't have an ID");
+// }
 
 // its print "You don't have an ID" if hasID is false. so the output will be "You don't have an ID" because hasID is false.
+
+// if/else if statements
+// let day = "Monday";
+let day = "Saturday";
+if (day === "Monday") {
+    console.log("Today is Monday starting of the week");
+} else if (day === "Tuesday") {
+    console.log("Today is Tuesday");
+} else if (day === "Wednesday") {
+    console.log("Today is Wednesday");
+} else if (day === "Thursday") {
+    console.log("Today is Thursday");
+} else if (day === "Friday") {
+    console.log("Today is Friday end of the week");
+} else {
+    console.log("Today is Weekend");
+};
+
