@@ -253,13 +253,33 @@
 
 // Grade Calculator
 
-let marks = "47";
-if (marks >= 80) {
-    console.log("A+");
-} else if (marks >= 60 && marks < 80) {
-    console.log("B");
-} else if (marks >= 50 && marks < 60) {
-    console.log("C")
-} else {
-    console.log("Fail")
+// let marks = "47";
+// if (marks >= 80) {
+//     console.log("A+");
+// } else if (marks >= 60 && marks < 80) {
+//     console.log("B");
+// } else if (marks >= 50 && marks < 60) {
+//     console.log("C")
+// } else {
+//     console.log("Fail")
+// }
+
+// switch method
+let marks = 90;
+switch (true) {
+    case marks >= 80:
+        console.log("A+");
+        break;
+    default:
+        console.log("Fail");
 }
+// let marks = 90;
+
+// switch (true) {
+//     case marks >= 80:
+//         console.log("A+");
+//         break;
+
+//     default:
+//         console.log("Fail");
+// }
