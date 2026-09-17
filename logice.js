@@ -202,8 +202,8 @@
 // };
 
 // Switch statement
-// let day = "Monday";
-let day = "Saturday";
+let day = "Monday";
+// let day = "Saturday";
 switch (day) {
     case "Monday":
         console.log("Today is Monday starting of the week");
