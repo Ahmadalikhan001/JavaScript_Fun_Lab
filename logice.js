@@ -352,5 +352,10 @@ console.log(fruits);
 fruits.push("Mango");
 console.log(fruits);
 
-console.log(Object.keys(student));
+console.log(Object.keys(fruits));
 console.log(Object.keys(fruits).length);
+
+
+fruits.pop();
+console.log(fruits);
+console.log(Object.keys(fruits))
