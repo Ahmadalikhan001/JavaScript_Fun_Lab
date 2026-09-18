@@ -339,3 +339,9 @@ delete student.PhNo;
 console.log(student);
 console.log(Object.keys(student));
 console.log(Object.keys(student).length);
+
+//Arrays in Java Script
+
+const fruits = ["Mangos", "Apple", "Oringes"];
+
+console.log(fruits);
