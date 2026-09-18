@@ -319,43 +319,44 @@
 // }
 
 // Object in JavaScript
-const student = {
-    name: "Ali",
-    rollNo: 1,
-    age: 13,
-    country: "Pakistan"
+// const student = {
+//     name: "Ali",
+//     rollNo: 1,
+//     age: 13,
+//     country: "Pakistan"
 
-}
+// }
 
-console.log(student.rollNo);
-console.log(student);
-student.name = "Ahad"
-console.log(student)
-student.PhNo = 984544;
-console.log(student);
-console.log(Object.keys(student));
-console.log(Object.keys(student).length);
-delete student.PhNo;
-console.log(student);
-console.log(Object.keys(student));
-console.log(Object.keys(student).length);
+// console.log(student.rollNo);
+// console.log(student);
+// student.name = "Ahad"
+// console.log(student)
+// student.PhNo = 984544;
+// console.log(student);
+// console.log(Object.keys(student));
+// console.log(Object.keys(student).length);
+// delete student.PhNo;
+// console.log(student);
+// console.log(Object.keys(student));
+// console.log(Object.keys(student).length);
 
-//Arrays in Java Script
+// //Arrays in Java Script
 
-const fruits = ["Mangos", "Apple", "Oringes"];
+// const fruits = ["Mangos", "Apple", "Oringes"];
 
-console.log(fruits);
-console.log(fruits.length);
-console.log(fruits[0]);
-fruits[0] = "Banana";
-console.log(fruits);
-fruits.push("Mango");
-console.log(fruits);
+// console.log(fruits);
+// console.log(fruits.length);
+// console.log(fruits[0]);
+// fruits[0] = "Banana";
+// console.log(fruits);
+// fruits.push("Mango");
+// console.log(fruits);
 
-console.log(Object.keys(fruits));
-console.log(Object.keys(fruits).length);
+// console.log(Object.keys(fruits));
+// console.log(Object.keys(fruits).length);
 
 
-fruits.pop();
-console.log(fruits);
-console.log(Object.keys(fruits))
+// fruits.pop();
+// console.log(fruits);
+// console.log(Object.keys(fruits));
+
