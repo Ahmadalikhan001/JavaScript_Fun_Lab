@@ -388,14 +388,26 @@
 // It means:
 // "Right now, this variable intentionally has no value."
 
-let User = null;
-console.log(User);
+// let User = null;
+// console.log(User);
 
-User = {
-    name: "Fawad",
-    phNo: 172133343,
-    roomNo: 2
+// User = {
+//     name: "Fawad",
+//     phNo: 172133343,
+//     roomNo: 2
+// }
+
+// console.log(User);
+// console.log(User.name); 
+
+// if else , else if
+
+let age = 23;
+if (age >= 18) {
+    console.log("Adualt");
+} if (age < 18) {
+    console.log("child")
 }
 
-console.log(User);
-console.log(User.name); 
+let rusult = (age >= 18 ? "Adualt" : "child");
+console.log(rusult);
