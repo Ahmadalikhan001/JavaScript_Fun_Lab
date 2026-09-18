@@ -351,3 +351,6 @@ fruits[0] = "Banana";
 console.log(fruits);
 fruits.push("Mango");
 console.log(fruits);
+
+console.log(Object.keys(student));
+console.log(Object.keys(fruits).length);
