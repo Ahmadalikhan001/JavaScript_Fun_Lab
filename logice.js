@@ -398,16 +398,55 @@
 // }
 
 // console.log(User);
-// console.log(User.name); 
+// console.log(User.name);
 
 // if else , else if
 
-let age = 23;
-if (age >= 18) {
-    console.log("Adualt");
-} if (age < 18) {
-    console.log("child")
-}
+// let age = 23;
+// if (age >= 18) {
+//     console.log("Adualt");
+// } if (age < 18) {
+//     console.log("child")
+// }
 
-let rusult = (age >= 18 ? "Adualt" : "child");
-console.log(rusult);
+// let rusult = (age >= 18 ? "Adualt" : "child");
+// console.log(rusult);
+
+let day = "Tuesday";
+
+if (day === "Monday") {
+
+    console.log("Start of the Week");
+
+} else if (day === "Tuesday") {
+
+    console.log("Tuesday");
+
+} else if (day === "Wednesday") {
+
+    console.log("Wednesday");
+
+} else if (day === "Thursday") {
+
+    console.log("Thursday");
+
+} else if (day === "Friday") {
+
+    console.log("Friday");
+
+} else if (day === "Saturday") {
+
+    console.log("Weekend");
+
+} else if (day === "Sunday") {
+
+    console.log("Weekend");
+
+} else {
+
+    console.log("Invalid day");
+
+}
+//Switch and Tenary Operator
+// let number = 78;
+// switch()
