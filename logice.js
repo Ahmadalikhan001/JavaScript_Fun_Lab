@@ -362,23 +362,40 @@
 
 // Object + Array Together
 
-const students = [
-    {
-        name: "Amjad",
-        RollNo: 1,
-        phNo: 9877
-    },
-    {
-        name: "Adil",
-        RollNo: 2,
-        PhNo: 6546
-    }
+// const students = [
+//     {
+//         name: "Amjad",
+//         RollNo: 1,
+//         phNo: 9877
+//     },
+//     {
+//         name: "Adil",
+//         RollNo: 2,
+//         PhNo: 6546
+//     }
 
-];
+// ];
 
-console.log(students);
-console.log(Object.keys(students));
-console.log(Object.keys(students).length)
-console.log(students[0]);
-console.log(Object.keys(students[0]));
-console.log(Object.keys(students[0]).length);
+// console.log(students);
+// console.log(Object.keys(students));
+// console.log(Object.keys(students).length)
+// console.log(students[0]);
+// console.log(Object.keys(students[0]));
+// console.log(Object.keys(students[0]).length);
+
+// null does not mean:
+// "This variable will always be null."
+// It means:
+// "Right now, this variable intentionally has no value."
+
+let User = null;
+console.log(User);
+
+User = {
+    name: "Fawad",
+    phNo: 172133343,
+    roomNo: 2
+}
+
+console.log(User);
+console.log(User.name); 
