@@ -377,4 +377,5 @@ const students = [
 ];
 
 console.log(students);
-console.log(Object.keys(students))
+console.log(Object.keys(students));
+console.log(Object.keys(students).length)
