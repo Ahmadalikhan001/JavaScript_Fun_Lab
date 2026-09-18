@@ -381,3 +381,4 @@ console.log(Object.keys(students));
 console.log(Object.keys(students).length)
 console.log(students[0]);
 console.log(Object.keys(students[0]));
+console.log(Object.keys(students[0]).length);
