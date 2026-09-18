@@ -349,3 +349,5 @@ console.log(fruits.length);
 console.log(fruits[0]);
 fruits[0] = "Banana";
 console.log(fruits);
+fruits.push("Mango");
+console.log(fruits);
