@@ -335,3 +335,7 @@ student.PhNo = 984544;
 console.log(student);
 console.log(Object.keys(student));
 console.log(Object.keys(student).length);
+delete student.PhNo;
+console.log(student);
+console.log(Object.keys(student));
+console.log(Object.keys(student).length);
