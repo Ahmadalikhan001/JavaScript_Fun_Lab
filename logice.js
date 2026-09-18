@@ -360,3 +360,21 @@
 // console.log(fruits);
 // console.log(Object.keys(fruits));
 
+// Object + Array Together
+
+const students = [
+    {
+        name: "Amjad",
+        RollNo: 1,
+        phNo: 9877
+    },
+    {
+        name: "Adil",
+        RollNo: 2,
+        PhNo: 6546
+    }
+
+];
+
+console.log(students);
+console.log(Object.keys(students))
