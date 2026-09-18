@@ -314,6 +314,24 @@
 //     console.log(i);
 // }
 
-for (let i = 5; i >= 1; i--) {
-    console.log(i);
+// for (let i = 5; i >= 1; i--) {
+//     console.log(i);
+// }
+
+// Object in JavaScript
+const student = {
+    name: "Ali",
+    rollNo: 1,
+    age: 13,
+    country: "Pakistan"
+
 }
+
+console.log(student.rollNo);
+console.log(student);
+student.name = "Ahad"
+console.log(student)
+student.PhNo = 984544;
+console.log(student);
+console.log(Object.keys(student));
+console.log(Object.keys(student).length);
