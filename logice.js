@@ -345,3 +345,4 @@ console.log(Object.keys(student).length);
 const fruits = ["Mangos", "Apple", "Oringes"];
 
 console.log(fruits);
+console.log(fruits.length);
