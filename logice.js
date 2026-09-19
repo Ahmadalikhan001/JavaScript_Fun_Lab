@@ -520,3 +520,7 @@ let countries = ["Pakistan", "Japan", "USA", "Malaysia"];
 for (let country of countries) {
     console.log(country);
 }
+
+for (let country in countries) {
+    console.log(country);
+}
