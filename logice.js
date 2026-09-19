@@ -451,28 +451,30 @@
 // let number = 78;
 // switch()
 
-let day = "Saturday";
-switch (day) {
-    case "Monday":
-        console.log("Start of the Week");
-        break;
-    case "Tuesday":
-        console.log("second day of the Week");
-        break;
-    case "wednesday":
-        console.log("3rd day of the week");
-        break;
-    case "Thursday":
-        console.log("4th day of the Week");
-        break;
-    case day = "Friday":
-        console.log("Last day of the Week");
-        break;
-    case "Saturday":
-    case "Sunday":
-        console.log("Weekend");
-        break;
-    default:
-        console.log("Invalid day")
+// let day = "Saturday";
+// switch (day) {
+//     case "Monday":
+//         console.log("Start of the Week");
+//         break;
+//     case "Tuesday":
+//         console.log("second day of the Week");
+//         break;
+//     case "wednesday":
+//         console.log("3rd day of the week");
+//         break;
+//     case "Thursday":
+//         console.log("4th day of the Week");
+//         break;
+//     case day = "Friday":
+//         console.log("Last day of the Week");
+//         break;
+//     case "Saturday":
+//     case "Sunday":
+//         console.log("Weekend");
+//         break;
+//     default:
+//         console.log("Invalid day")
 
-};
+// };
+
+// Ternary Operator ? :
