@@ -412,41 +412,67 @@
 // let rusult = (age >= 18 ? "Adualt" : "child");
 // console.log(rusult);
 
-let day = "Tuesday";
+// let day = "Tuesday";
 
-if (day === "Monday") {
+// if (day === "Monday") {
 
-    console.log("Start of the Week");
+//     console.log("Start of the Week");
 
-} else if (day === "Tuesday") {
+// } else if (day === "Tuesday") {
 
-    console.log("Tuesday");
+//     console.log("Tuesday");
 
-} else if (day === "Wednesday") {
+// } else if (day === "Wednesday") {
 
-    console.log("Wednesday");
+//     console.log("Wednesday");
 
-} else if (day === "Thursday") {
+// } else if (day === "Thursday") {
 
-    console.log("Thursday");
+//     console.log("Thursday");
 
-} else if (day === "Friday") {
+// } else if (day === "Friday") {
 
-    console.log("Friday");
+//     console.log("Friday");
 
-} else if (day === "Saturday") {
+// } else if (day === "Saturday") {
 
-    console.log("Weekend");
+//     console.log("Weekend");
 
-} else if (day === "Sunday") {
+// } else if (day === "Sunday") {
 
-    console.log("Weekend");
+//     console.log("Weekend");
 
-} else {
+// } else {
 
-    console.log("Invalid day");
+//     console.log("Invalid day");
 
-}
+// }
 //Switch and Tenary Operator
 // let number = 78;
 // switch()
+
+let day = "Saturday";
+switch (day) {
+    case "Monday":
+        console.log("Start of the Week");
+        break;
+    case "Tuesday":
+        console.log("second day of the Week");
+        break;
+    case "wednesday":
+        console.log("3rd day of the week");
+        break;
+    case "Thursday":
+        console.log("4th day of the Week");
+        break;
+    case day = "Friday":
+        console.log("Last day of the Week");
+        break;
+    case "Saturday":
+    case "Sunday":
+        console.log("Weekend");
+        break;
+    default:
+        console.log("Invalid day")
+
+};
