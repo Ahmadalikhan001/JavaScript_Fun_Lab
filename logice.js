@@ -511,16 +511,31 @@
 
 // for of & for in
 
-let students = ["Ahmad", "Ali", "Khan"];
-for (let student of students) {
-    console.log(student);
-}
+// let students = ["Ahmad", "Ali", "Khan"];
+// for (let student of students) {
+//     console.log(student);
+// }
 
-let countries = ["Pakistan", "Japan", "USA", "Malaysia"];
-for (let country of countries) {
-    console.log(country);
-}
+// let countries = ["Pakistan", "Japan", "USA", "Malaysia"];
+// for (let country of countries) {
+//     console.log(country);
+// }
 
-for (let country in countries) {
-    console.log(country);
+// for (let country in countries) {
+//     console.log(country);
+// }
+
+// for of and for in in Object
+
+let students = {
+    name: "Ahmad",
+    age: 29,
+    country: "Pakistan",
+};
+for (let student in students) {
+    console.log(student)
+};
+
+for (let key in students) {
+    console.log(key, students[key])
 }
