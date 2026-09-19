@@ -506,4 +506,12 @@
 // while (a >= 0) {
 //     console.log(a);
 //     a--
-// }
+// };
+
+
+// for of & for in
+
+let students = ["Ahmad", "Ali", "Khan"];
+for (let student of students) {
+    console.log(student);
+}
