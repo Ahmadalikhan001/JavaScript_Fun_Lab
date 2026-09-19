@@ -479,7 +479,14 @@
 
 // Ternary Operator ? :
 
-let day = "Sunday";
-let Function_day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-let result = (Function_day.includes(day) ? "Working day" : day === "Sunday" || day === "Saturday" ? "Weekend" : "Invalid day");
-console.log(result);
+// let day = "Sunday";
+// let Function_day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+// let result = (Function_day.includes(day) ? "Working day" : day === "Sunday" || day === "Saturday" ? "Weekend" : "Invalid day");
+// console.log(result);
+
+// for loop
+
+for (let i = 1; i <= 29; i++) {
+    console.log(i)
+
+}
