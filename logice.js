@@ -557,5 +557,7 @@ for (let i = 0; i <= 10; i++) {
         console.log(0, "Zero")
     } else if (i % 2 === 0) {
         console.log(i, "Even")
+    } else {
+        console.log(i, "odd")
     }
 }
