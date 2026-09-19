@@ -515,3 +515,8 @@ let students = ["Ahmad", "Ali", "Khan"];
 for (let student of students) {
     console.log(student);
 }
+
+let countries = ["Pakistan", "Japan", "USA", "Malaysia"];
+for (let country of countries) {
+    console.log(country);
+}
