@@ -486,11 +486,24 @@
 
 // for loop
 
-for (let i = 1; i <= 29; i++) {
-    console.log(i);
+// for (let i = 1; i <= 29; i++) {
+//     console.log(i);
 
+// }
+
+// for (let i = 29; i >= 0; i--) {
+//     console.log(i);
+// };
+
+// while loop
+let i = 0;
+while (i <= 5) {
+    console.log(i);
+    i++;
 }
 
-for (let i = 29; i >= 0; i--) {
-    console.log(i);
+let a = 5;
+while (a >= 0) {
+    console.log(a);
+    a--
 }
