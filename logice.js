@@ -478,3 +478,8 @@
 // };
 
 // Ternary Operator ? :
+
+let day = "Friday";
+let Function_day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+let result = (Function_day.includes(day) ? "Working day" : day === "Sunday" ? "Weekend" : day === "Saturday" ? "Weekend" : "Invalid day");
+console.log(result);
