@@ -527,15 +527,35 @@
 
 // for of and for in in Object
 
-let students = {
-    name: "Ahmad",
-    age: 29,
-    country: "Pakistan",
-};
-// for (let student in students) {
-//     console.log(student)
+// let students = {
+//     name: "Ahmad",
+//     age: 29,
+//     country: "Pakistan",
+// };
+// // for (let student in students) {
+// //     console.log(student)
+// // };
+
+// for (let key in students) {
+//     console.log(key, students[key])
+// }
+
+// Even Number Paractice
+
+// let Number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i in Number) {
+//     console.log(i)
+// }
+
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i)
 // };
 
-for (let key in students) {
-    console.log(key, students[key])
+for (let i = 0; i <= 10; i++) {
+    if (i === 0) {
+        console.log(0, "Zero")
+    } else if (i % 2 === 0) {
+        console.log(i, "Even")
+    }
 }
