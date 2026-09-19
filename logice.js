@@ -532,9 +532,9 @@ let students = {
     age: 29,
     country: "Pakistan",
 };
-for (let student in students) {
-    console.log(student)
-};
+// for (let student in students) {
+//     console.log(student)
+// };
 
 for (let key in students) {
     console.log(key, students[key])
