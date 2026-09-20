@@ -552,12 +552,20 @@
 //     console.log(i)
 // };
 
-for (let i = 0; i <= 10; i++) {
-    if (i === 0) {
-        console.log(0, "Zero")
-    } else if (i % 2 === 0) {
-        console.log(i, "Even")
-    } else {
-        console.log(i, "odd")
-    }
+// for (let i = 0; i <= 10; i++) {
+//     if (i === 0) {
+//         console.log(0, "Zero")
+//     } else if (i % 2 === 0) {
+//         console.log(i, "Even")
+//     } else {
+//         console.log(i, "odd")
+//     }
+// }
+
+// Function in javaScript
+
+function Add(a, b) {
+    console.log(a + b);
 }
+
+Add(12, 34);
