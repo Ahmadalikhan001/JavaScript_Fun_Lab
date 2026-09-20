@@ -564,8 +564,33 @@
 
 // Function in javaScript
 
-function Add(a, b) {
-    console.log(a + b);
+// function Add(a, b) {
+//     console.log(a + b);
+// }
+
+// Add(12, 34);
+
+const arrowAdd = (a, b) => a + b;
+
+
+console.log(arrowAdd(12, 34));
+
+function multiply(a, b) {
+    console.log(a * b);
 }
 
-Add(12, 34);
+multiply(2, 3);
+
+const Multiply = (a, b) => a * b;
+
+console.log(Multiply(5, 4));
+
+function Hello(name) {
+    console.log("Hellow : ", name);
+}
+
+Hello("Ahmad");
+
+const hello = (name) => "Hellow : " + name;
+
+console.log(hello("Ahmad"));
