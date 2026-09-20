@@ -570,37 +570,56 @@
 
 // Add(12, 34);
 
-const arrowAdd = (a, b) => a + b;
+// const arrowAdd = (a, b) => a + b;
 
 
-console.log(arrowAdd(12, 34));
+// console.log(arrowAdd(12, 34));
 
-function multiply(a, b) {
-    console.log(a * b);
+// function multiply(a, b) {
+//     console.log(a * b);
+// }
+
+// multiply(2, 3);
+
+// const Multiply = (a, b) => a * b;
+
+// console.log(Multiply(5, 4));
+
+// function Hello(name) {
+//     console.log("Hellow : ", name);
+// }
+
+// Hello("Ahmad");
+
+// const hello = (name) => "Hellow : " + name;
+
+// console.log(hello("Ahmad"));
+
+// function subtraction(a, b) {
+//     console.log(a - b);
+// }
+
+// sc(20, 5);
+
+// const Subtraction = (a, b) => a - b;
+// console.log(Subtraction(20, 5));
+
+// Use of return
+
+function returnAdd(a, b) {
+    return a + b;
+};
+
+let result = returnAdd(2, 2);
+let double = result * 2;
+
+console.log(result + "\n" + double);
+
+const reAdd = (a, b) => {
+    return a + b;
 }
 
-multiply(2, 3);
+let Result = reAdd(2, 2);
+let doubleResult = Result * 2;
 
-const Multiply = (a, b) => a * b;
-
-console.log(Multiply(5, 4));
-
-function Hello(name) {
-    console.log("Hellow : ", name);
-}
-
-Hello("Ahmad");
-
-const hello = (name) => "Hellow : " + name;
-
-console.log(hello("Ahmad"));
-
-function subtraction(a, b) {
-    console.log(a - b);
-}
-
-sc(20, 5);
-
-const Subtraction = (a, b) => a - b;
-console.log(Subtraction(20, 5));
-
+console.log(Result + "\n" + doubleResult);
