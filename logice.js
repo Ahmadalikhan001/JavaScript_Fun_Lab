@@ -633,3 +633,8 @@ function Hellow(name = " Friend") {
 }
 
 Hellow(" Ahmad");
+
+let hellow = (name = " Friend") => "Hello" + name;
+
+
+console.log(hellow(" Ahmad"));
