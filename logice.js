@@ -599,7 +599,8 @@ function subtraction(a, b) {
     console.log(a - b);
 }
 
-subtraction(20, 5);
+sc(20, 5);
 
 const Subtraction = (a, b) => a - b;
 console.log(Subtraction(20, 5));
+
