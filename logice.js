@@ -606,20 +606,30 @@
 
 // Use of return
 
-function returnAdd(a, b) {
-    return a + b;
-};
+// function returnAdd(a, b) {
+//     return a + b;
+// };
 
-let result = returnAdd(2, 2);
-let double = result * 2;
+// let result = returnAdd(2, 2);
+// let double = result * 2;
 
-console.log(result + "\n" + double);
+// console.log(result + "\n" + double);
 
-const reAdd = (a, b) => {
-    return a + b;
+// const reAdd = (a, b) => {
+//     return a + b;
+// }
+
+// let Result = reAdd(2, 2);
+// let doubleResult = Result * 2;
+
+// console.log(Result + "\n" + doubleResult);
+
+// Next small concept: Default Parameters
+
+// JavaScript lets us give a parameter a default
+
+function Hellow(name = " Friend") {
+    console.log("Hello" + name);
 }
 
-let Result = reAdd(2, 2);
-let doubleResult = Result * 2;
-
-console.log(Result + "\n" + doubleResult);
+Hellow(" Ahmad");
