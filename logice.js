@@ -641,21 +641,35 @@
 
 // callback in JavaScript;
 
-function Add(a, b) {
-    console.log(a + b);
-};
-function sub(a, b) {
-    console.log(a - b);
-}
-function mul(a, b) {
-    console.log(a * b);
-}
+// function Add(a, b) {
+//     console.log(a + b);
+// };
+// function sub(a, b) {
+//     console.log(a - b);
+// }
+// function mul(a, b) {
+//     console.log(a * b);
+// }
 
 
-function BackCall(backcall) {
-    backcall(5, 5);
-};
+// function BackCall(backcall) {
+//     backcall(5, 5);
+// };
 
-BackCall(Add);
-BackCall(sub);
-BackCall(mul);
+// BackCall(Add);
+// BackCall(sub);
+// BackCall(mul);
+
+
+// callBAck fuction Using the Arrow Function
+
+const Add = (a, b) => a + b;
+const sub = (a, b) => a - b;
+const mul = (a, b) => a * b;
+
+
+let FinalFun = (callback) => callback(5, 5);
+
+console.log(FinalFun(Add));
+console.log(FinalFun(sub));
+console.log(FinalFun(mul));
