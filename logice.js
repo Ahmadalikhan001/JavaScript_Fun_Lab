@@ -647,10 +647,15 @@ function Add(a, b) {
 function sub(a, b) {
     console.log(a - b);
 }
+function mul(a, b) {
+    console.log(a * b);
+}
+
+
 function BackCall(backcall) {
     backcall(5, 5);
 };
 
 BackCall(Add);
 BackCall(sub);
-
+BackCall(mul);
