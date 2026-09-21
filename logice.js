@@ -664,12 +664,20 @@
 // callBAck fuction Using the Arrow Function
 
 const Add = (a, b) => a + b;
-const sub = (a, b) => a - b;
-const mul = (a, b) => a * b;
+// const sub = (a, b) => a - b;
+// const mul = (a, b) => a * b;
 
 
-let FinalFun = (callback) => callback(5, 5);
+// let FinalFun = (callback) => callback(5, 5);
 
-console.log(FinalFun(Add));
-console.log(FinalFun(sub));
-console.log(FinalFun(mul));
+// console.log(FinalFun(Add));
+// console.log(FinalFun(sub));
+// console.log(FinalFun(mul));
+
+let FinalFun = (a, b, callback) => {
+    console.log(a + b);
+    console.log(callback(5, 5));
+};
+
+console.log(FinalFun(3, 3, Add));
+
