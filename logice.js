@@ -628,13 +628,24 @@
 
 // JavaScript lets us give a parameter a default
 
-function Hellow(name = " Friend") {
-    console.log("Hello" + name);
-}
+// function Hellow(name = " Friend") {
+//     console.log("Hello" + name);
+// }
 
-Hellow(" Ahmad");
+// Hellow(" Ahmad");
 
-let hellow = (name = " Friend") => "Hello" + name;
+// let hellow = (name = " Friend") => "Hello" + name;
 
 
-console.log(hellow(" Ahmad"));
+// console.log(hellow(" Ahmad"));
+
+// callback in JavaScript;
+
+function Add(a, b) {
+    console.log(a + b);
+};
+function BackCall(backcall) {
+    backcall(5, 5);
+};
+
+BackCall(Add);
