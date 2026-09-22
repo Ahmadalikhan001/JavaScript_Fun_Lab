@@ -687,3 +687,5 @@ const Add = (a, b) => a + b;
 let Array1 = ["Ahmad", "Ali", "Khan"]
 console.log(Array1);
 console.log(Array1[2]);
+
+Array1[0] = "Pakistan";
