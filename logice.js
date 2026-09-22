@@ -681,3 +681,8 @@ const Add = (a, b) => a + b;
 
 // console.log(FinalFun(3, 3, Add));
 
+// Array and Array Methods
+
+
+let Array1 = ["Ahmad", "Ali", "Khan"]
+console.log(Array1)
