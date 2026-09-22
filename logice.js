@@ -674,10 +674,10 @@ const Add = (a, b) => a + b;
 // console.log(FinalFun(sub));
 // console.log(FinalFun(mul));
 
-let FinalFun = (a, b, callback) => {
-    console.log(a + b);
-    console.log(callback(5, 5));
-};
+// let FinalFun = (a, b, callback) => {
+//     console.log(a + b);
+//     console.log(callback(5, 5));
+// };
 
-console.log(FinalFun(3, 3, Add));
+// console.log(FinalFun(3, 3, Add));
 
