@@ -690,3 +690,11 @@ console.log(Array1[2]);
 
 Array1[0] = "Pakistan";
 console.log(Array1);
+
+Array1.pop();
+console.log(Array1);
+Array1.shift("Pakistan");
+console.log(Array1);
+Array1.unshift("Ahmad");
+console.log(Array1);
+Array1.Add("Khan");
