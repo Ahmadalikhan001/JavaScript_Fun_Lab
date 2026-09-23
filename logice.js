@@ -698,4 +698,5 @@ console.log(Array1);
 Array1.unshift("Ahmad");
 console.log(Array1);
 Array1.Add = ("Khan");
-console.log(Array1)
+console.log(Array1);
+console.log(Array1.length);
