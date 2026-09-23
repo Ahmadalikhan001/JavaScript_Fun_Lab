@@ -697,6 +697,6 @@ Array1.shift("Pakistan");
 console.log(Array1);
 Array1.unshift("Ahmad");
 console.log(Array1);
-Array1.Add = ("Khan");
+Array1.push("Khan");
 console.log(Array1);
 console.log(Array1.length);
