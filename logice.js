@@ -753,3 +753,8 @@ console.log(result);
 
 let result2 = student2.includes("Ali");
 console.log(result2);
+
+// find the index of the Array
+
+console.log(student.indexOf("Wahid"));
+
