@@ -684,19 +684,20 @@ const Add = (a, b) => a + b;
 // Array and Array Methods
 
 
-let Array1 = ["Ahmad", "Ali", "Khan"]
-console.log(Array1);
-console.log(Array1[2]);
+// let Array1 = ["Ahmad", "Ali", "Khan"]
+// console.log(Array1);
+// console.log(Array1[2]);
 
-Array1[0] = "Pakistan";
-console.log(Array1);
+// Array1[0] = "Pakistan";
+// console.log(Array1);
 
-Array1.pop();
-console.log(Array1);
-Array1.shift("Pakistan");
-console.log(Array1);
-Array1.unshift("Ahmad");
-console.log(Array1);
-Array1.push("Khan");
-console.log(Array1);
-console.log(Array1.length);
+// Array1.pop();
+// console.log(Array1);
+// Array1.shift("Pakistan");
+// console.log(Array1);
+// Array1.unshift("Ahmad");
+// console.log(Array1);
+// Array1.push("Khan");
+// console.log(Array1);
+// console.log(Array1.length);
+
