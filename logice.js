@@ -706,3 +706,6 @@ console.log(student);
 // changing the Item
 student[2] = "Wahid";
 console.log(student);
+// Array length method
+
+console.log(student.length)
