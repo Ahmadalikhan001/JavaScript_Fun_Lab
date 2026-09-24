@@ -758,3 +758,8 @@ console.log(result2);
 
 console.log(student.indexOf("Wahid"));
 
+let student_roll_Numbers = [2, 1, 3, 4, 8, 6, 9, 5, 7];
+console.log(student_roll_Numbers);
+// Arrange the item of the Array
+student_roll_Numbers.sort();
+console.log(student_roll_Numbers);
