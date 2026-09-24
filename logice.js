@@ -724,3 +724,8 @@ console.log(resule);
 
 student.push("Kashif");
 console.log(student);
+
+// delet the last item from the Array
+
+student.pop();
+console.log(student);
