@@ -741,3 +741,15 @@ console.log(student);
 student.pop();
 console.log(student);
 
+// make a anather copy of the Array
+
+let student2 = student.slice();
+console.log(student2);
+
+// lets Check the item is it include or not .
+
+let result = student.includes("Ali");
+console.log(result);
+
+let result2 = student2.includes("Ali");
+console.log(result2);
