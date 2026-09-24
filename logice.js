@@ -772,3 +772,9 @@ let array = [1, 2, 3, 4, 6, 7, 8, 5];
 console.log(array);
 array.sort();
 console.log(array);
+
+let array2 = [11, 23, 4, 45, 56, 7];
+// lets jiont the array to array2
+
+let joinArray = array.concat(array2);
+console.log(joinArray);
