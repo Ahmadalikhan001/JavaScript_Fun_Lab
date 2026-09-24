@@ -701,70 +701,74 @@ const Add = (a, b) => a + b;
 // console.log(Array1);
 // console.log(Array1.length);
 
-let student = ["Ahmad", "Ali", "Khan", "Fahad", "Alim", "Adil"];
-console.log(student);
-// changing the Item
-student[2] = "Wahid";
-console.log(student);
-// Array length method
+// let student = ["Ahmad", "Ali", "Khan", "Fahad", "Alim", "Adil"];
+// console.log(student);
+// // changing the Item
+// student[2] = "Wahid";
+// console.log(student);
+// // Array length method
 
-console.log(student.length);
+// console.log(student.length);
 
-console.log(student[0].length, student[1].length);
+// console.log(student[0].length, student[1].length);
 
-// reverse the item of the Array
-let resule = student.reverse();
-console.log(resule);
+// // reverse the item of the Array
+// let resule = student.reverse();
+// console.log(resule);
 
-let student3 = ["Mustafa", "Shakir", "Iftaher"];
-console.log(student3)
-// let's join the Two Arrays
+// let student3 = ["Mustafa", "Shakir", "Iftaher"];
+// console.log(student3)
+// // let's join the Two Arrays
 
-let allstudents = student.concat(student3);
-console.log(allstudents);
-console.log(allstudents.length);
+// let allstudents = student.concat(student3);
+// console.log(allstudents);
+// console.log(allstudents.length);
 
-// late add the item in Array
+// // late add the item in Array
 
-student.push("Kashif");
-console.log(student);
+// student.push("Kashif");
+// console.log(student);
 
-// delet the last item from the Array
+// // delet the last item from the Array
 
-student.pop();
-console.log(student);
+// student.pop();
+// console.log(student);
 
-// rermove the first item of the Array
+// // rermove the first item of the Array
 
-student.shift();
-console.log(student);
+// student.shift();
+// console.log(student);
 
-// Add item to the beinning of the Array
-student.unshift("Ahmad");
-console.log(student);
-student.pop();
-console.log(student);
+// // Add item to the beinning of the Array
+// student.unshift("Ahmad");
+// console.log(student);
+// student.pop();
+// console.log(student);
 
-// make a anather copy of the Array
+// // make a anather copy of the Array
 
-let student2 = student.slice();
-console.log(student2);
+// let student2 = student.slice();
+// console.log(student2);
 
-// lets Check the item is it include or not .
+// // lets Check the item is it include or not .
 
-let result = student.includes("Ali");
-console.log(result);
+// let result = student.includes("Ali");
+// console.log(result);
 
-let result2 = student2.includes("Ali");
-console.log(result2);
+// let result2 = student2.includes("Ali");
+// console.log(result2);
 
-// find the index of the Array
+// // find the index of the Array
 
-console.log(student.indexOf("Wahid"));
+// console.log(student.indexOf("Wahid"));
 
-let student_roll_Numbers = [2, 1, 3, 4, 8, 6, 9, 5, 7];
-console.log(student_roll_Numbers);
-// Arrange the item of the Array
-student_roll_Numbers.sort();
-console.log(student_roll_Numbers);
+// let student_roll_Numbers = [2, 1, 3, 4, 8, 6, 9, 5, 7];
+// console.log(student_roll_Numbers);
+// // Arrange the item of the Array
+// student_roll_Numbers.sort();
+// console.log(student_roll_Numbers);
 
+let array = [1, 2, 3, 4, 6, 7, 8, 5];
+console.log(array);
+array.sort();
+console.log(array);
