@@ -734,3 +734,10 @@ console.log(student);
 
 student.shift();
 console.log(student);
+
+// Add item to the beinning of the Array
+student.unshift("Ahmad");
+console.log(student);
+student.pop();
+console.log(student);
+
