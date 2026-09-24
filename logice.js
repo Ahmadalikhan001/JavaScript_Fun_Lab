@@ -708,4 +708,10 @@ student[2] = "Wahid";
 console.log(student);
 // Array length method
 
-console.log(student.length)
+console.log(student.length);
+
+console.log(student[0].length, student[1].length);
+
+// reverse the item of the Array
+let resule = student.reverse();
+console.log(resule);
