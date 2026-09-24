@@ -716,9 +716,13 @@ console.log(student[0].length, student[1].length);
 let resule = student.reverse();
 console.log(resule);
 
-// let sturent2 = ["Mustafa", "Shakir", "Iftaher"];
-// console.log(studentturent2)
+let student3 = ["Mustafa", "Shakir", "Iftaher"];
+console.log(student3)
 // let's join the Two Arrays
+
+let allstudents = student.concat(student3);
+console.log(allstudents);
+console.log(allstudents.length);
 
 // late add the item in Array
 
@@ -763,3 +767,4 @@ console.log(student_roll_Numbers);
 // Arrange the item of the Array
 student_roll_Numbers.sort();
 console.log(student_roll_Numbers);
+
