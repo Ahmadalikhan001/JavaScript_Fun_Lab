@@ -715,3 +715,12 @@ console.log(student[0].length, student[1].length);
 // reverse the item of the Array
 let resule = student.reverse();
 console.log(resule);
+
+// let sturent2 = ["Mustafa", "Shakir", "Iftaher"];
+// console.log(studentturent2)
+// let's join the Two Arrays
+
+// late add the item in Array
+
+student.push("Kashif");
+console.log(student);
