@@ -701,3 +701,8 @@ const Add = (a, b) => a + b;
 // console.log(Array1);
 // console.log(Array1.length);
 
+let student = ["Ahmad", "Ali", "Khan", "Fahad", "Alim", "Adil"];
+console.log(student);
+// changing the Item
+student[2] = "Wahid";
+console.log(student);
