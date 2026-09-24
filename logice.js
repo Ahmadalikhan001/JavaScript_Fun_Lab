@@ -729,3 +729,8 @@ console.log(student);
 
 student.pop();
 console.log(student);
+
+// rermove the first item of the Array
+
+student.shift();
+console.log(student);
