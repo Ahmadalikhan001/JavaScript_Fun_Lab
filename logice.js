@@ -778,3 +778,16 @@ let array2 = [11, 23, 4, 45, 56, 7];
 
 let joinArray = array.concat(array2);
 console.log(joinArray);
+
+// Using the splice() array method
+
+joinArray.splice(8, 6);
+console.log(joinArray);
+
+// Adding a item using by splice methon
+
+joinArray.splice(1, 0, 9);
+console.log(joinArray);
+joinArray.sort();
+
+console.log(joinArray);
