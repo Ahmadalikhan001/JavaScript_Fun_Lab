@@ -835,16 +835,24 @@ const Add = (a, b) => a + b;
 //     console.log(eachItem / 2);
 // });
 
-let student = [1, 2, 3, 4];
+// let student = [1, 2, 3, 4];
 
-let student2 = [];
-student.map((student) => {
-    student2.push(student * 2)
-});
-console.log(student2);
+// let student2 = [];
+// student.map((student) => {
+//     student2.push(student * 2)
+// });
+// console.log(student2);
 
-let student4 = [];
-student.map((student) => {
-    student4.push(student);
-});
-console.log(student4);
+// let student4 = [];
+// student.map((student) => {
+//     student4.push(student);
+// });
+// console.log(student4);
+
+// filter() → select some items
+let student5 = [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 0, 1, 21, 2, 22, 33, 44, 66];
+let student6 = student5.filter((item) => {
+    return item % 2 === 0;
+})
+console.log(student6);
+console.log(student5);
