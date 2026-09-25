@@ -17,8 +17,15 @@ let student = [
 let StudentNames = student.map((eachName) => {
     console.log(eachName.name);
 });
+
 let NamesOfStudent = [];
 student.map((eachStudentName) => {
     NamesOfStudent.push(eachStudentName.name)
 });
 console.log(NamesOfStudent);
+
+let AgeNameStudent = [];
+student.map((eachStudent) => {
+    AgeNameStudent.push(eachStudent.name + ":" + eachStudent.age);
+});
+console.log(AgeNameStudent);
