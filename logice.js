@@ -859,7 +859,8 @@ const Add = (a, b) => a + b;
 
 // find() → find ONE item
 
-let Num = [1, 3, 3, 2, 4, 5, 6, 7, 7];
+// let Num = [1, 3, 3, 2, 4, 5, 6, 7, 7];
 
-let filterNum = Num.find(item => item > 2);
-console.log(filterNum);
+// let filterNum = Num.find(item => item > 2);
+// console.log(filterNum);
+
