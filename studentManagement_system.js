@@ -88,8 +88,9 @@ const Student = {
     address: {
         country: "Pakistan",
         city: "Islamabad",
-        homeNo: 34
+        houseNo: 34
     }
 };
 
-console.log(Student);
+console.log(Student.address.country);
+
