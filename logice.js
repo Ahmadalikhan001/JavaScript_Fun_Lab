@@ -791,3 +791,7 @@ console.log(joinArray);
 joinArray.sort();
 
 console.log(joinArray);
+
+joinArray.forEach((joinItem) => {
+    console.log(joinItem * 2);
+})
