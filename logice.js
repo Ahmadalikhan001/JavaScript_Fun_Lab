@@ -768,42 +768,51 @@ const Add = (a, b) => a + b;
 // student_roll_Numbers.sort();
 // console.log(student_roll_Numbers);
 
-let array = [1, 2, 3, 4, 6, 7, 8, 5];
-console.log(array);
-array.sort();
-console.log(array);
+// let array = [1, 2, 3, 4, 6, 7, 8, 5];
+// console.log(array);
+// array.sort();
+// console.log(array);
 
-let array2 = [11, 23, 4, 45, 56, 7];
-// lets jiont the array to array2
+// let array2 = [11, 23, 4, 45, 56, 7];
+// // lets jiont the array to array2
 
-let joinArray = array.concat(array2);
-console.log(joinArray);
+// let joinArray = array.concat(array2);
+// console.log(joinArray);
 
-// Using the splice() array method
+// // Using the splice() array method
 
-joinArray.splice(8, 6);
-console.log(joinArray);
+// joinArray.splice(8, 6);
+// console.log(joinArray);
 
-// Adding a item using by splice methon
+// // Adding a item using by splice methon
 
-joinArray.splice(1, 0, 9);
-console.log(joinArray);
-joinArray.sort();
+// joinArray.splice(1, 0, 9);
+// console.log(joinArray);
+// joinArray.sort();
 
-console.log(joinArray);
+// console.log(joinArray);
 
-// joinArray.forEach((joinItem) => {
-//     console.log(joinItem * 2);
-// })
+// // joinArray.forEach((joinItem) => {
+// //     console.log(joinItem * 2);
+// // })
 
-joinArray.forEach((item) => {
-    console.log(item * 4);
-});
+// joinArray.forEach((item) => {
+//     console.log(item * 4);
+// });
 
-joinArray.forEach((Everyitem) => {
-    console.log(Everyitem / 2);
-});
+// joinArray.forEach((Everyitem) => {
+//     console.log(Everyitem / 2);
+// });
 
-joinArray.forEach((eachItem) => {
-    console.log(eachItem / 2);
-});
+// joinArray.forEach((eachItem) => {
+//     console.log(eachItem / 2);
+// });
+
+
+let a = [1, 2, 3, 4, 5];
+let b = [];
+a.forEach((item) => {
+    b.push(item / 2);
+})
+
+console.log(b);
