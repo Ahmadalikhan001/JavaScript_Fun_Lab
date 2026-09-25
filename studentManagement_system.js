@@ -1,12 +1,12 @@
 // 🎓 Student Management System — Practice Question.
 
-let student = [
-    { id: 1, name: "Ali", age: 20, marks: 85 },
-    { id: 2, name: "Ahmed", age: 21, marks: 72 },
-    { id: 3, name: "Sara", age: 19, marks: 91 },
-    { id: 4, name: "Hina", age: 22, marks: 58 },
-    { id: 4, name: "Usman", age: 20, marks: 45 }
-];
+// let student = [
+//     { id: 1, name: "Ali", age: 20, marks: 85 },
+//     { id: 2, name: "Ahmed", age: 21, marks: 72 },
+//     { id: 3, name: "Sara", age: 19, marks: 91 },
+//     { id: 4, name: "Hina", age: 22, marks: 58 },
+//     { id: 4, name: "Usman", age: 20, marks: 45 }
+// ];
 
 // Print every student's: ID, name, age, marks.
 // student.forEach((eachStudent) => {
@@ -18,36 +18,45 @@ let student = [
 //     console.log(eachName.name);
 // });
 
-let NamesOfStudent = [];
-student.map((eachStudentName) => {
-    NamesOfStudent.push(eachStudentName.name)
-});
-console.log(NamesOfStudent);
+// let NamesOfStudent = [];
+// student.map((eachStudentName) => {
+//     NamesOfStudent.push(eachStudentName.name)
+// });
+// console.log(NamesOfStudent);
 
-let AgeNameStudent = [];
-student.map((eachStudent) => {
-    AgeNameStudent.push(eachStudent.name + ":" + eachStudent.age);
-});
-console.log(AgeNameStudent);
-// Create a new array where 5 marks are added to every student.
+// let AgeNameStudent = [];
+// student.map((eachStudent) => {
+//     AgeNameStudent.push(eachStudent.name + ":" + eachStudent.age);
+// });
+// console.log(AgeNameStudent);
+// // Create a new array where 5 marks are added to every student.
 
-let NewMarks = student.map((Marks) => {
-    return Marks.marks + 5
-});
+// let NewMarks = student.map((Marks) => {
+//     return Marks.marks + 5
+// });
 
-console.log(NewMarks);
+// console.log(NewMarks);
 
-let PassStudent =
-    student.filter((student) => {
-        return student.marks >= 60;
+// let PassStudent =
+//     student.filter((student) => {
+//         return student.marks >= 60;
 
-    });
-console.log(PassStudent);
+//     });
+// console.log(PassStudent);
 
-// find sara?
-let sara = student.find((student) => {
-    return student.name === "Sara";
-});
+// // find sara?
+// let sara = student.find((student) => {
+//     return student.name === "Sara";
+// });
 
-console.log(sara);
+// console.log(sara);
 
+// Object in JavaScript
+
+const Obj1 = {
+    name: "Ahmad",
+    age: 28,
+    eduction: "Master"
+}
+console.log(Obj1);
+Obj1.name = "Ahmad Ali Kan";
