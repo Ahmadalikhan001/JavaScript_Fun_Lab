@@ -53,44 +53,55 @@
 
 // Object in JavaScript
 
-const Obj1 = {
-    name: "Ahmad",
-    age: 28,
-    eduction: "Master"
-}
-console.log(Obj1);
+// const Obj1 = {
+//     name: "Ahmad",
+//     age: 28,
+//     eduction: "Master"
+// }
+// console.log(Obj1);
 
-Obj1.name = "Ahmad Ali Kan";
-console.log(Obj1);
+// Obj1.name = "Ahmad Ali Kan";
+// console.log(Obj1);
 
-delete Obj1.name;
-console.log(Obj1);
+// delete Obj1.name;
+// console.log(Obj1);
 
-Obj1.name = "Ahmad";
-console.log(Obj1);
+// Obj1.name = "Ahmad";
+// console.log(Obj1);
 
-// Method in JS
+// // Method in JS
 
-const obj2 = {
-    name: "khan",
-    f_name: "Nek",
-    work() {
-        console.log("student", `My name is ${this.name}`)
-    }
-}
-obj2.work();
+// const obj2 = {
+//     name: "khan",
+//     f_name: "Nek",
+//     work() {
+//         console.log("student", `My name is ${this.name}`)
+//     }
+// }
+// obj2.work();
 
-// Nested Objects
+// // Nested Objects
+// const Student = {
+//     name: "Ali",
+//     RollNo: 1,
+//     class: "6th",
+//     address: {
+//         country: "Pakistan",
+//         city: "Islamabad",
+//         houseNo: 34
+//     }
+// };
+
+// console.log(Student.address.country);
+
+
+// Object Destructuring 
+
 const Student = {
-    name: "Ali",
-    RollNo: 1,
-    class: "6th",
-    address: {
-        country: "Pakistan",
-        city: "Islamabad",
-        houseNo: 34
-    }
-};
+    name: "Waqas",
+    age: 9,
+    Class: 5
+}
+const { age, name, Class } = Student;
 
-console.log(Student.address.country);
-
+console.log(age, name, Class);
