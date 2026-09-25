@@ -825,12 +825,20 @@ const Add = (a, b) => a + b;
 
 // console.log(cHalf);
 
-let a = [1, 2, 4, 5];
-let b = a.map((item) => {
-    return item / 2;
-});
-console.log(b);
+// let a = [1, 2, 4, 5];
+// let b = a.map((item) => {
+//     return item / 2;
+// });
+// console.log(b);
 
-a.map((eachItem) => {
-    console.log(eachItem / 2);
+// a.map((eachItem) => {
+//     console.log(eachItem / 2);
+// });
+
+let student = [1, 2, 3, 4];
+
+let student2 = [];
+student.map((student) => {
+    student2.push(student * 2)
 });
+console.log(student2);
