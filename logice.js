@@ -809,18 +809,24 @@ const Add = (a, b) => a + b;
 // });
 
 
-let a = [1, 2, 3, 4, 5];
-let b = [];
-a.forEach((item) => {
-    b.push(item / 2);
-})
+// let a = [1, 2, 3, 4, 5];
+// let b = [];
+// a.forEach((item) => {
+//     b.push(item / 2);
+// })
 
-console.log(b);
+// console.log(b);
 
-let c = [2, 4, 6, 8, 10];
-let cHalf = [];
-c.forEach((eachitem) => {
-    cHalf.push(eachitem / 2)
+// let c = [2, 4, 6, 8, 10];
+// let cHalf = [];
+// c.forEach((eachitem) => {
+//     cHalf.push(eachitem / 2)
+// });
+
+// console.log(cHalf);
+
+let a = [1, 2, 4, 5];
+let b = a.map((item) => {
+    return item / 2;
 });
-
-console.log(cHalf);
+console.log(b);
