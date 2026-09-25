@@ -36,3 +36,18 @@ let NewMarks = student.map((Marks) => {
 });
 
 console.log(NewMarks);
+
+let PassStudent =
+    student.filter((student) => {
+        return student.marks >= 60;
+
+    });
+console.log(PassStudent);
+
+// find sara?
+let sara = student.find((student) => {
+    return student.name === "Sara";
+});
+
+console.log(sara);
+
