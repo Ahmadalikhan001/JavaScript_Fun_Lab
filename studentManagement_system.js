@@ -65,3 +65,6 @@ console.log(Obj1);
 
 delete Obj1.name;
 console.log(Obj1);
+
+Obj1.name = "Ahmad";
+console.log(Obj1);
