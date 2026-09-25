@@ -68,3 +68,14 @@ console.log(Obj1);
 
 Obj1.name = "Ahmad";
 console.log(Obj1);
+
+// Method in JS
+
+const obj2 = {
+    name: "khan",
+    f_name: "Nek",
+    work() {
+        console.log("student", `My name is ${this.name}`)
+    }
+}
+obj2.work()
