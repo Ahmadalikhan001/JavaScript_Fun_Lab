@@ -816,3 +816,11 @@ a.forEach((item) => {
 })
 
 console.log(b);
+
+let c = [2, 4, 6, 8, 10];
+let cHalf = [];
+c.forEach((eachitem) => {
+    cHalf.push(eachitem / 2)
+});
+
+console.log(cHalf);
