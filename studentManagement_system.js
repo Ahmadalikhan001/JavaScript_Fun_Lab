@@ -14,9 +14,9 @@ let student = [
 // });
 
 // Create a new array containing only the student names.
-let StudentNames = student.map((eachName) => {
-    console.log(eachName.name);
-});
+// let StudentNames = student.map((eachName) => {
+//     console.log(eachName.name);
+// });
 
 let NamesOfStudent = [];
 student.map((eachStudentName) => {
@@ -29,3 +29,10 @@ student.map((eachStudent) => {
     AgeNameStudent.push(eachStudent.name + ":" + eachStudent.age);
 });
 console.log(AgeNameStudent);
+// Create a new array where 5 marks are added to every student.
+
+let NewMarks = student.map((Marks) => {
+    return Marks.marks + 5
+});
+
+console.log(NewMarks);
