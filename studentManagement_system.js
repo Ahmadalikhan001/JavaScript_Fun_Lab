@@ -78,4 +78,18 @@ const obj2 = {
         console.log("student", `My name is ${this.name}`)
     }
 }
-obj2.work()
+obj2.work();
+
+// Nested Objects
+const Student = {
+    name: "Ali",
+    RollNo: 1,
+    class: "6th",
+    address: {
+        country: "Pakistan",
+        city: "Islamabad",
+        homeNo: 34
+    }
+};
+
+console.log(Student);
