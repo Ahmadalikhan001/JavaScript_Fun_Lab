@@ -792,6 +792,18 @@ joinArray.sort();
 
 console.log(joinArray);
 
-joinArray.forEach((joinItem) => {
-    console.log(joinItem * 2);
-})
+// joinArray.forEach((joinItem) => {
+//     console.log(joinItem * 2);
+// })
+
+joinArray.forEach((item) => {
+    console.log(item * 4);
+});
+
+joinArray.forEach((Everyitem) => {
+    console.log(Everyitem / 2);
+});
+
+joinArray.forEach((eachItem) => {
+    console.log(eachItem / 2);
+});
