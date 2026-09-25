@@ -842,3 +842,9 @@ student.map((student) => {
     student2.push(student * 2)
 });
 console.log(student2);
+
+let student4 = [];
+student.map((student) => {
+    student4.push(student);
+});
+console.log(student4);
