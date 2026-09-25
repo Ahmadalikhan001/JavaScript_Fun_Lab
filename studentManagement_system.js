@@ -59,4 +59,9 @@ const Obj1 = {
     eduction: "Master"
 }
 console.log(Obj1);
+
 Obj1.name = "Ahmad Ali Kan";
+console.log(Obj1);
+
+delete Obj1.name;
+console.log(Obj1);
