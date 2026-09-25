@@ -830,3 +830,7 @@ let b = a.map((item) => {
     return item / 2;
 });
 console.log(b);
+
+a.map((eachItem) => {
+    console.log(eachItem / 2);
+});
