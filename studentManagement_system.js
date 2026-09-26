@@ -95,13 +95,13 @@
 // console.log(Student.address.country);
 
 
-// Object Destructuring 
+// Object Destructuring
 
-const Student = {
-    name: "Waqas",
-    age: 9,
-    Class: 5
-}
-const { age, name, Class } = Student;
+// const Student = {
+//     name: "Waqas",
+//     age: 9,
+//     Class: 5
+// }
+// const { age, name, Class } = Student;
 
-console.log(age, name, Class);
+// console.log(age, name, Class);
