@@ -121,3 +121,5 @@ console.log(Student.name);
 console.log(Student);
 delete Student.name;
 console.log(Student);
+Student.name = "Kashif";
+console.log(Student);
