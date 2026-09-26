@@ -136,3 +136,6 @@ const Student2 = {
 };
 
 console.log(Student2.address);
+
+Student2.address.houseNo = "ES33";
+console.log(Student2.address.houseNo);
