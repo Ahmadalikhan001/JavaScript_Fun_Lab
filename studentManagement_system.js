@@ -135,4 +135,4 @@ const Student2 = {
     }
 };
 
-console.log(Student2.address.Pravance);
+console.log(Student2.address);
