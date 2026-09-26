@@ -105,3 +105,19 @@
 // const { age, name, Class } = Student;
 
 // console.log(age, name, Class);
+
+const Student = {
+    name: "Ali",
+    age: 12,
+    Class: 6,
+    ID: "001A"
+};
+
+console.log(Student);
+console.log(Student.name);
+
+Student.name = "Kashif";
+console.log(Student.name);
+console.log(Student);
+delete Student.name;
+console.log(Student);
