@@ -161,3 +161,16 @@ console.log(School);
 console.log(School[0]);
 console.log(School[0].name);
 console.log(School[0].age);
+
+console.log(School[0].age);
+
+School.forEach((student) => {
+    console.log(student.age)
+});
+School.forEach((student) => {
+    console.log(student.name);
+});
+
+School.forEach((Student) => {
+    console.log(Student.age)
+});
