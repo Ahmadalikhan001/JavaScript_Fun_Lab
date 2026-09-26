@@ -139,3 +139,21 @@ console.log(Student2.address);
 
 Student2.address.houseNo = "ES33";
 console.log(Student2.address.houseNo);
+
+const School = [
+    {
+        name: "Ali",
+        age: 21,
+    },
+    {
+        name: "Arif",
+        age: 21.5
+    },
+    {
+        name: "Sekandar",
+        age: 20
+    }
+
+];
+
+console.log(School);
