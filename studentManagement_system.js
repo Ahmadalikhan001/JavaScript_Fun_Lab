@@ -123,3 +123,16 @@ delete Student.name;
 console.log(Student);
 Student.name = "Kashif";
 console.log(Student);
+
+
+const Student2 = {
+    ...Student,
+    address: {
+        country: "Pakistan",
+        Pravance: "KPK",
+        houseNo: "E21",
+
+    }
+};
+
+console.log(Student2.address.Pravance);
