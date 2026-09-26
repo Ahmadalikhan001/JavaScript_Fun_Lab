@@ -157,3 +157,7 @@ const School = [
 ];
 
 console.log(School);
+
+console.log(School[0]);
+console.log(School[0].name);
+console.log(School[0].age);
