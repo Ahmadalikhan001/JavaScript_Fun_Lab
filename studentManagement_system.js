@@ -200,3 +200,9 @@ console.log(`The First Student name is ${Student[0].name}`);
 console.log(`The 2nd Student Name is ${Student[1].name}`);
 console.log(`the 3rd Student Name is ${Student[2].name}`);
 
+// Destructure The Array Of Object
+
+const [first, second, third] = Student;
+
+console.log(first);
+console.log(`the is the 2nd object of Student Array = ${first}`)
