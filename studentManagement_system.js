@@ -195,3 +195,5 @@ let Student = [
 ];
 
 console.log(Student);
+
+console.log(`The First Student name is ${Student[0].name}`);
