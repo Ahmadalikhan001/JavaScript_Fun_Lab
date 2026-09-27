@@ -181,5 +181,17 @@ let Student = [
         name: "ALi",
         age: 21,
         Class: "6th"
+    },
+    {
+        name: "Khan",
+        age: 21,
+        Class: "6th"
+    },
+    {
+        name: "Sara",
+        age: 21,
+        Class: "6th"
     }
-]
+];
+
+console.log(Student);
