@@ -205,4 +205,3 @@ console.log(`the 3rd Student Name is ${Student[2].name}`);
 const [first, second, third] = Student;
 
 console.log(first);
-console.log(`the is the 2nd object of Student Array = ${first}`)
