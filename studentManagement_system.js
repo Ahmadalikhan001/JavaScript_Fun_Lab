@@ -106,71 +106,80 @@
 
 // console.log(age, name, Class);
 
-const Student = {
-    name: "Ali",
-    age: 12,
-    Class: 6,
-    ID: "001A"
-};
+// const Student = {
+//     name: "Ali",
+//     age: 12,
+//     Class: 6,
+//     ID: "001A"
+// };
 
-console.log(Student);
-console.log(Student.name);
+// console.log(Student);
+// console.log(Student.name);
 
-Student.name = "Kashif";
-console.log(Student.name);
-console.log(Student);
-delete Student.name;
-console.log(Student);
-Student.name = "Kashif";
-console.log(Student);
+// Student.name = "Kashif";
+// console.log(Student.name);
+// console.log(Student);
+// delete Student.name;
+// console.log(Student);
+// Student.name = "Kashif";
+// console.log(Student);
 
 
-const Student2 = {
-    ...Student,
-    address: {
-        country: "Pakistan",
-        Pravance: "KPK",
-        houseNo: "E21",
+// const Student2 = {
+//     ...Student,
+//     address: {
+//         country: "Pakistan",
+//         Pravance: "KPK",
+//         houseNo: "E21",
 
-    }
-};
+//     }
+// };
 
-console.log(Student2.address);
+// console.log(Student2.address);
 
-Student2.address.houseNo = "ES33";
-console.log(Student2.address.houseNo);
+// Student2.address.houseNo = "ES33";
+// console.log(Student2.address.houseNo);
 
-const School = [
+// const School = [
+//     {
+//         name: "Ali",
+//         age: 21,
+//     },
+//     {
+//         name: "Arif",
+//         age: 21.5
+//     },
+//     {
+//         name: "Sekandar",
+//         age: 20
+//     }
+
+// ];
+
+// console.log(School);
+
+// console.log(School[0]);
+// console.log(School[0].name);
+// console.log(School[0].age);
+
+// console.log(School[0].age);
+
+// School.forEach((student) => {
+//     console.log(student.age)
+// });
+// School.forEach((student) => {
+//     console.log(student.name);
+// });
+
+// School.forEach((Student) => {
+//     console.log(Student.age)
+// });
+
+
+let Student = [
     {
-        name: "Ali",
+        name: "ALi",
         age: 21,
-    },
-    {
-        name: "Arif",
-        age: 21.5
-    },
-    {
-        name: "Sekandar",
-        age: 20
+        Class: "6th"
     }
-
-];
-
-console.log(School);
-
-console.log(School[0]);
-console.log(School[0].name);
-console.log(School[0].age);
-
-console.log(School[0].age);
-
-School.forEach((student) => {
-    console.log(student.age)
-});
-School.forEach((student) => {
-    console.log(student.name);
-});
-
-School.forEach((Student) => {
-    console.log(Student.age)
-});
+]
