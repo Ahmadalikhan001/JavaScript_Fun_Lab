@@ -205,3 +205,7 @@ console.log(`the 3rd Student Name is ${Student[2].name}`);
 const [first, second, third] = Student;
 
 console.log(first);
+
+const { name, age, Class } = first;
+
+console.log(name);
