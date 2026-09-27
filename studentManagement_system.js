@@ -210,3 +210,12 @@ const { name, age, Class } = first;
 
 console.log(name);
 console.log(`This is the First Object student Name: ${name}`);
+
+// Use of Rest ...
+
+function Number(first, ...rest) {
+    // console.log(first);
+    console.log(rest);
+};
+
+Number(12, 13, 14, 15);
