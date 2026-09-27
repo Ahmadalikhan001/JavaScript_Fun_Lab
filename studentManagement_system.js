@@ -209,3 +209,4 @@ console.log(first);
 const { name, age, Class } = first;
 
 console.log(name);
+console.log(`This is the First Object student Name: ${name}`);
