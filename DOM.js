@@ -15,5 +15,8 @@ console.log(ClassCall.textContent);
 let IdUse = document.querySelector("#idUse");
 console.log(IdUse.textContent);
 
-let AllHeading = document.querySelectorAll("h1");
-console.log(AllHeading.textContent);
+let AllHeading = document.querySelectorAll("h1") = "Pakistan Zindabad";
+
+for (let heading of AllHeading) {
+    console.log(heading.textContent);
+}
