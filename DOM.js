@@ -11,3 +11,9 @@ console.log(P2);
 
 let ClassCall = document.querySelector(".ClassUse");
 console.log(ClassCall.textContent);
+
+let IdUse = document.querySelector("#idUse");
+console.log(IdUse.textContent);
+
+let AllHeading = document.querySelectorAll("h1");
+console.log(AllHeading.textContent);
