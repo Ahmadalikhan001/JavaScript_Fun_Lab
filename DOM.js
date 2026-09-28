@@ -8,3 +8,6 @@ console.log(P1.textContent);
 
 let P2 = document.querySelector("p").textContent = "Pakistan Zindabad";
 console.log(P2);
+
+let ClassCall = document.querySelector(".ClassUse");
+console.log(ClassCall.textContent);
