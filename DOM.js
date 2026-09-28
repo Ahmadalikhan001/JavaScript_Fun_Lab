@@ -7,3 +7,4 @@ let P1 = document.querySelector("p");
 console.log(P1.textContent);
 
 let P2 = document.querySelector("p").textContent = "Pakistan Zindabad";
+console.log(P2);
