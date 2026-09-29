@@ -63,5 +63,16 @@
 // });
 
 // getElementById() metod;
-const heading11 = document.getElementById("idUse");
-console.log(heading11.textContent);
+// const heading11 = document.getElementById("idUse");
+// console.log(heading11.textContent);
+
+// const IDHeading = document.getElementById("idUse");
+// console.log(IDHeading.textContent);
+
+// textContant 
+
+const Element = document.querySelector("h1");
+
+console.log(Element.textContent);
+console.log(Element.textContent = "Hello I'm Change")
+console.log(Element.textContent);
