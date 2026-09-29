@@ -20,3 +20,9 @@
 // console.log(heading1);
 const heading1 = document.querySelector("h1").textContent;
 console.log(heading1);
+// querySelector() can use CSS selectors
+
+// class call
+
+const headingClass = document.querySelector(".ClassUse").textContent;
+console.log(headingClass);
