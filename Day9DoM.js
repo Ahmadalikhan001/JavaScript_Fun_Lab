@@ -21,4 +21,12 @@ console.log(IdUSe.textContent);
 IdUSe.textContent = "Try to change the inner Text of idUse Element "
 console.log(IdUSe.textContent);
 
-console.log("Try to approch and call the All Items.")
+console.log("Try to approch and call the All Items.");
+
+const AllItems = document.querySelectorAll(".item");
+console.log(AllItems);
+
+console.log("To approch and print all the inner Text of all the items late we use ForEach and Function.");
+AllItems.forEach(function (item) {
+    console.log(item.textContent);
+});
