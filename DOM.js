@@ -56,8 +56,12 @@
 //     console.log(item.textContent)
 // })
 
-const items4 = document.querySelectorAll(".item");
+// const items4 = document.querySelectorAll(".item");
 
-items4.forEach((item) => {
-    console.log(item.textContent)
-});
+// items4.forEach((item) => {
+//     console.log(item.textContent)
+// });
+
+// getElementById() metod;
+const heading11 = document.getElementById("idUse");
+console.log(heading11.textContent);
