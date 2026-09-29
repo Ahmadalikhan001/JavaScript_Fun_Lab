@@ -40,8 +40,19 @@
 //     console.log(item.textContent);
 // });
 
-const items = document.querySelectorAll(".item");
+// const items = document.querySelectorAll(".item");
 
-items.forEach(function (item) {
+// items.forEach(function (item) {
+//     console.log(item.textContent)
+// });
+
+// const items2 = document.querySelectorAll(".item");
+// items2.forEach(function (item) {
+//     console.log(item.textContent)
+// });
+
+const items3 = document.querySelectorAll(".item");
+items3.forEach((item) => {
     console.log(item.textContent)
-});
+})
+
