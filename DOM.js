@@ -90,4 +90,4 @@ console.log(Box.innerHTML);
 
 Box.style.color = "red";
 
-Box.style.backgroundColor = "lightGreen" 
+Box.style.backgroundColor = "lightBlue" 
