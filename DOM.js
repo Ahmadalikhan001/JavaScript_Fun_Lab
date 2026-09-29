@@ -18,18 +18,30 @@
 // let heading1 = document.querySelector("h1").textContent;
 
 // console.log(heading1);
-const heading1 = document.querySelector("h1").textContent;
-console.log(heading1);
-// querySelector() can use CSS selectors
+// const heading1 = document.querySelector("h1").textContent;
+// console.log(heading1);
+// // querySelector() can use CSS selectors
 
-// class call
+// // class call
 
-const headingClass = document.querySelector(".ClassUse").textContent;
-console.log(headingClass);
+// const headingClass = document.querySelector(".ClassUse").textContent;
+// console.log(headingClass);
 
-// Id Selector and call of Id Element
-const headingID = document.querySelector("#idUse").textContent;
+// // Id Selector and call of Id Element
+// const headingID = document.querySelector("#idUse").textContent;
 
-console.log(headingID);
+// console.log(headingID);
+// const items = document.querySelectorAll(".item");
+// console.log(items);
+
+// const items1 = document.querySelectorAll(".item");
+
+// items1.forEach(function (item) {
+//     console.log(item.textContent);
+// });
+
 const items = document.querySelectorAll(".item");
-console.log(items);
+
+items.forEach(function (item) {
+    console.log(item.textContent)
+});
