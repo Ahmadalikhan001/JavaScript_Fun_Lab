@@ -30,3 +30,10 @@ console.log("To approch and print all the inner Text of all the items late we us
 AllItems.forEach(function (item) {
     console.log(item.textContent);
 });
+
+console.log("differents and use of InnerHTML and TextContent ");
+
+const H1 = document.getElementById("idUse");
+console.log(H1);
+H1.innerHTML = "Try to Change the IdUse Element inner text throug innerHTML() method"
+console.log(H1.innerHTML);
