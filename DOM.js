@@ -15,6 +15,8 @@
 // let IdUse = document.querySelector("#idUse");
 // console.log(IdUse.textContent);
 
-let heading1 = document.querySelector("h1").textContent;
+// let heading1 = document.querySelector("h1").textContent;
 
+// console.log(heading1);
+const heading1 = document.querySelector("h1").textContent;
 console.log(heading1);
