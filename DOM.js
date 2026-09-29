@@ -51,8 +51,13 @@
 //     console.log(item.textContent)
 // });
 
-const items3 = document.querySelectorAll(".item");
-items3.forEach((item) => {
-    console.log(item.textContent)
-})
+// const items3 = document.querySelectorAll(".item");
+// items3.forEach((item) => {
+//     console.log(item.textContent)
+// })
 
+const items4 = document.querySelectorAll(".item");
+
+items4.forEach((item) => {
+    console.log(item.textContent)
+});
