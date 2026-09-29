@@ -31,3 +31,5 @@ console.log(headingClass);
 const headingID = document.querySelector("#idUse").textContent;
 
 console.log(headingID);
+const items = document.querySelectorAll(".item");
+console.log(items);
