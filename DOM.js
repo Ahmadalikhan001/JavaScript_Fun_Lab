@@ -82,3 +82,12 @@ console.log(Box.textContent);
 console.log(Box.innerHTML);
 // see the differents b/t them in console
 
+// Changing the Values 
+box.innerHTML = "<h1> I'm Change.</h1?";
+console.log(box.innerHTML);
+
+console.log(Box.innerHTML);
+
+Box.style.color = "red";
+
+Box.style.backgroundColor = "lightGreen" 
