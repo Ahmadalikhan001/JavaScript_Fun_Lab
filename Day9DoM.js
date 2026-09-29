@@ -12,3 +12,13 @@ console.log(ClassUse);
 console.log(ClassUse.textContent);
 ClassUse.textContent = "Trying to change its inner text of ClassUse h1."
 console.log(ClassUse);
+
+console.log("Try to approch and call the IdUse Element.");
+
+const IdUSe = document.querySelector("#idUse");
+console.log(IdUSe);
+console.log(IdUSe.textContent);
+IdUSe.textContent = "Try to change the inner Text of idUse Element "
+console.log(IdUSe.textContent);
+
+console.log("Try to approch and call the All Items.")
