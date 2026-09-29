@@ -26,3 +26,8 @@ console.log(heading1);
 
 const headingClass = document.querySelector(".ClassUse").textContent;
 console.log(headingClass);
+
+// Id Selector and call of Id Element
+const headingID = document.querySelector("#idUse").textContent;
+
+console.log(headingID);
