@@ -69,10 +69,16 @@
 // const IDHeading = document.getElementById("idUse");
 // console.log(IDHeading.textContent);
 
-// textContant 
+// textContant
 
-const Element = document.querySelector("h1");
+// const Element = document.querySelector("h1");
 
-console.log(Element.textContent);
-console.log(Element.textContent = "Hello I'm Change")
-console.log(Element.textContent);
+// console.log(Element.textContent);
+// console.log(Element.textContent = "Hello I'm Change")
+// console.log(Element.textContent);
+
+const Box = document.querySelector("#box");
+console.log(Box.textContent);
+console.log(Box.innerHTML);
+// see the differents b/t them in console
+
