@@ -37,3 +37,12 @@ const H1 = document.getElementById("idUse");
 console.log(H1);
 H1.innerHTML = "Try to Change the IdUse Element inner text throug innerHTML() method"
 console.log(H1.innerHTML);
+
+console.log("Styling in JS");
+H1.style.color = "red";
+
+ClassUse.style.backgroundColor = "Blue";
+
+IdUSe.style.fontSize = "12px";
+
+ClassUse.style.fontSize = "12px";
