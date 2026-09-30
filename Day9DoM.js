@@ -60,5 +60,6 @@ console.log("Trying and practiceing Class Css.");
 let Btn = document.getElementById("myButton");
 
 Btn.classList.add(".active");
-Btn.classList.remove(".active")
-Btn.classList.add(".hover")
+Btn.classList.remove(".active");
+Btn.classList.add(".hover");
+
