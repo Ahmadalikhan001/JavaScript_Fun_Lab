@@ -46,3 +46,14 @@ ClassUse.style.backgroundColor = "Blue";
 IdUSe.style.fontSize = "12px";
 
 ClassUse.style.fontSize = "12px";
+
+// console.log("classList Method");
+
+// const button = document.getElementById("myButton");
+
+// console.log(button.classList);
+
+
+console.log("Trying and practiceing Class Css.");
+
+
