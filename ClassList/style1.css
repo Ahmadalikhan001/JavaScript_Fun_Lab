@@ -11,7 +11,7 @@
     color: white;
 }
 
-.hover {
+/* .hover {
     box-shadow: 0 0 10px hsl(0, 2%, 53%);
     font-size: bold;
 }
@@ -19,4 +19,4 @@
 .disabled {
     background-color: rgb(238, 221, 221);
     color: hsl(0, 0, 80%);
-}
+} */
