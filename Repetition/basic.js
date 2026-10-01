@@ -7,3 +7,22 @@ console.log(`When we Use let to declear any value it's will be allow to change a
 var Eduction = "Mphil";
 console.log("var have a global scope and it same as a let only .");
 
+let DataTypes = "String, Number, Boolean, Null, Undefined, Symbol, BigInt and Object";
+console.log(`In JavaScript we have many data types like ${DataTypes} and all are use to store the value in different way.`);
+
+let a = 100;
+let b = 100;
+if (a > b) {
+    console.log(`${a} is greater than ${b}`);
+} else {
+    console.log(`${b} is greater than ${a}`);
+};
+
+if (a > b) {
+    console.log(`${a} is greater than ${b}`);
+} else if (a === b) {
+    console.log(`${a} is equal to ${b}`);
+} else {
+    console.log(`${b} is greater than ${a}`);
+};
+
