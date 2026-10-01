@@ -10,7 +10,7 @@ console.log("var have a global scope and it same as a let only .");
 let DataTypes = "String, Number, Boolean, Null, Undefined, Symbol, BigInt and Object";
 console.log(`In JavaScript we have many data types like ${DataTypes} and all are use to store the value in different way.`);
 
-let a = 500;
+let a = 200;
 let b = 100;
 if (a > b) {
     console.log(`${a} is greater than ${b}`);
@@ -33,7 +33,7 @@ console.log(`Logic Operators are used to combine two or more conditions and retu
 
 let c = 2200;
 if (a > b && a > c) {
-    conslole.log(`${a} is Greater then ${b} and ${c}`)
+    console.log(`${a} is Greater then ${b} and ${c}`)
 } else if (a > b || a === b) {
     console.log(`${a} isGreater then ${b} or ${a} is equal to ${b}`);
 } else if (a < b && a < c) {
@@ -62,3 +62,7 @@ switch (day1) {
     default:
         console.log(`Today is not ${day1}`)
 }
+
+console.log(day1 === "Wednesday" ? "Today is Wednesday" : "Today is not Wednesday");
+
+console.log(a > b ? "A > B" : "A < B");
