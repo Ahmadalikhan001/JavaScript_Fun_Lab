@@ -53,3 +53,12 @@ switch (day) {
     default:
         console.log("Today is not Monday or Tuesday");
 }
+
+let day1 = "Wednesday";
+switch (day1) {
+    case "Wednesday":
+        console.log(`Today is ${day1}`);
+        break;
+    default:
+        console.log(`Today is not ${day1}`)
+}
