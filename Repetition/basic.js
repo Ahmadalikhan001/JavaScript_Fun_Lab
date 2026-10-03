@@ -66,3 +66,18 @@ switch (day1) {
 console.log(day1 === "Wednesday" ? "Today is Wednesday" : "Today is not Wednesday");
 
 console.log(a > b ? "A > B" : "A < B");
+
+// Grade calculater
+
+let marks = 30;
+if (marks >= 80) {
+    console.log("A+");
+} else if (marks >= 70) {
+    console.log("A");
+} else if (marks >= 60) {
+    console.log("B");
+} else if (marks >= 50) {
+    console.log("C");
+} else {
+    console.log("Drop Try Next Time");
+}
