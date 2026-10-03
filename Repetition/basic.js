@@ -100,7 +100,13 @@ for (let i = 0; i <= 10; i++) {
 };
 console.log("Now we will use the while loop to print the value of j from 0 to 10");
 let j = 0;
-while (j < 10) {
+while (j <= 10) {
     console.log(`The Value of j is ${j}`);
     j++;
-}
+};
+console.log("Now we will use the while loop to print the value of x from 10 to 0");
+let x = 10;
+while (x >= 0) {
+    console.log(`The Value of x is ${x}`)
+    x--
+};
