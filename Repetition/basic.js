@@ -69,7 +69,7 @@ console.log(a > b ? "A > B" : "A < B");
 
 // Grade calculater
 
-let marks = 30;
+let marks = 60;
 if (marks >= 80) {
     console.log("A+");
 } else if (marks >= 70) {
