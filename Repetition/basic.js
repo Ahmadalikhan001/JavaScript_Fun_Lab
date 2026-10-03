@@ -85,4 +85,8 @@ if (marks >= 80) {
 
 for (let i = 0; i < 5; i++) {
     console.log(`The value of i is ${i}`);
+};
+
+for (let i = 10; i > 0; i--) {
+    console.log(`The value of i is ${i}`);
 }
