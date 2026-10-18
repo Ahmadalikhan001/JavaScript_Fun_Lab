@@ -38,3 +38,11 @@ console.log(22 != 30);
 
 console.log(Name.toUpperCase());
 console.log(Name.toLowerCase());
+
+// console.log(Name.includes("Ali"));
+
+console.log(age === 28);
+
+const Nama = "   Ali ";
+console.log(Nama);
+console.log(Nama.trim());
