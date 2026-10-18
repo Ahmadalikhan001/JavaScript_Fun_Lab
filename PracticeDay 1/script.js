@@ -27,3 +27,14 @@ console.log(name1);
 let a;
 console.log(a);
 
+console.log(typeof age);
+
+console.log(22 > 30);
+console.log(22 !== 30);
+console.log(22 < 30);
+console.log(22 == 30);
+console.log(22 != 30);
+
+
+console.log(Name.toUpperCase());
+console.log(Name.toLowerCase());
