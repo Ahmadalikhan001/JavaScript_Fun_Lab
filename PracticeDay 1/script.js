@@ -46,3 +46,12 @@ console.log(age === 28);
 const Nama = "   Ali ";
 console.log(Nama);
 console.log(Nama.trim());
+
+// Combining Strings
+const First_name = "Ahmad";
+const Last_name = "Ali Khan";
+// const Full_name = First_name + " " + Last_name;
+// console.log(Full_name);
+// console.log(`${First_name} ${Last_name}`);
+let Name1 = console.log(First_name + " " + Last_name);
+
