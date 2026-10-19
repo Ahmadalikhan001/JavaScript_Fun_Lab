@@ -53,5 +53,6 @@ const Last_name = "Ali Khan";
 // const Full_name = First_name + " " + Last_name;
 // console.log(Full_name);
 // console.log(`${First_name} ${Last_name}`);
-let Name1 = console.log(First_name + " " + Last_name);
+console.log(First_name + " " + Last_name);
 
+console.log(First_name.length);
