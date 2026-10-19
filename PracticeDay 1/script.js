@@ -65,4 +65,6 @@ if (a1 > b) {
     console.log(`${a1} is Less then ${b}`);
 } else {
     console.log(`${a1} is Equal to ${b}`);
-}
+};
+
+
