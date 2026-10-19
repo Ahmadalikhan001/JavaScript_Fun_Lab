@@ -56,3 +56,13 @@ const Last_name = "Ali Khan";
 console.log(First_name + " " + Last_name);
 
 console.log(First_name.length);
+
+let a1 = 10;
+let b = 10;
+if (a1 > b) {
+    console.log(`${a1} is Greater then ${b}`);
+} else if (a1 < b) {
+    console.log(`${a1} is Less then ${b}`);
+} else {
+    console.log(`${a1} is Equal to ${b}`);
+}
