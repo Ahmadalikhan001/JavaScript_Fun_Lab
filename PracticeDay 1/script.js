@@ -110,3 +110,17 @@ function MyFun() {
 };
 
 MyFun();
+
+// Function Parameter
+
+function greet(name) {
+    console.log(`This is my Name : ${name}`)
+}
+
+greet("Ahmad");
+
+function Add(a, b) {
+    console.log(a + b)
+};
+
+Add(23, 43);
