@@ -124,3 +124,13 @@ function Add(a, b) {
 };
 
 Add(23, 43);
+
+function Intro(name, age) {
+    console.log(`I m ${name} and I'm ${age} year old`)
+}
+
+// Intro("Ahmad", 24);
+
+for (let i = 1; i <= 50; i++) {
+    Intro("Ahmad", 29)
+}
