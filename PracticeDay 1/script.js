@@ -133,4 +133,17 @@ function Intro(name, age) {
 
 for (let i = 1; i <= 50; i++) {
     Intro("Ahmad", 29)
+};
+
+function Fun(name, age) {
+    return name + " " + age;
+}
+
+let Result = Fun("Ahmad", 28);
+console.log(Result);
+
+let i3 = 1;
+while (i3 <= 5) {
+    console.log(Result);
+    i3++
 }
