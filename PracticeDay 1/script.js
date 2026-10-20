@@ -144,6 +144,19 @@ console.log(Result);
 
 let i3 = 1;
 while (i3 <= 5) {
-    console.log(Result);
+    console.log("I'm ", Result);
     i3++
 }
+
+// EXAMPLE 2 
+
+function AgeCheck(age) {
+    if (age >= 18) {
+        return "Adult";
+    } else {
+        return "Under 18";
+    }
+}
+
+let result = AgeCheck(29);
+console.log(result);
