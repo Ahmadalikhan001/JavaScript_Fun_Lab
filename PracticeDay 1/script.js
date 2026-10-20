@@ -102,4 +102,11 @@ let i2 = 0;
 while (i2 <= 20) {
     console.log(i2);
     i2 += 2;
-}
+};
+
+/* Function Practice */
+function MyFun() {
+    console.log("Hello This is MyFun function ")
+};
+
+MyFun();
