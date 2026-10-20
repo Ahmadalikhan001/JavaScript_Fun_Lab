@@ -57,7 +57,7 @@ console.log(First_name + " " + Last_name);
 
 console.log(First_name.length);
 
-let a1 = 10;
+let a1 = 0;
 let b = 10;
 if (a1 > b) {
     console.log(`${a1} is Greater then ${b}`);
@@ -68,3 +68,28 @@ if (a1 > b) {
 };
 
 
+// for loop
+// for (let i = 0; i <= 10; i++) {
+//     console.log(`The value of i is ${i}`);
+// };
+// for (let i = 10; i >= 0; i--) {
+//     console.log(`The value of i is ${i}`);
+// };
+
+for (let i = 5; i <= 10; i++) {
+    console.log(`The value of i is ${i}`);
+}
+
+// while Loop:
+let i = 10;
+while (i >= 0) {
+    console.log(i);
+    i--
+};
+console.log("Pritn 1 - 10 numbers");
+let i1 = 0
+while (i1 <= 10) {
+    console.log(i1);
+    i1++
+
+}
