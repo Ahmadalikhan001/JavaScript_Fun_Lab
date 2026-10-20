@@ -93,3 +93,13 @@ while (i1 <= 10) {
     i1++
 
 }
+
+/* try to print even numbers from 1 to 20;*/
+
+console.log("Try to print even numbers from 0 to 20");
+
+let i2 = 0;
+while (i2 <= 20) {
+    console.log(i2);
+    i2 += 2;
+}
